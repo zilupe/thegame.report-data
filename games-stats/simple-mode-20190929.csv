@@ -1,0 +1,80 @@
+game_id,scheduled_time,team_id,team_name,player_id,player_name,pts,fgm,fga,3pm,3pa,ftm,fta,oreb,dreb,ast,tov,stl,blk,pf
+20190919-1845-burritos-bbcballers,2019-09-19 18:45:00,bbcballers,BBC Ballers,bbcballers-arthur,Arthur,12,4,14,2,7,2,4,0,1,1,2,2,0,1
+20190919-1845-burritos-bbcballers,2019-09-19 18:45:00,bbcballers,BBC Ballers,bbcballers-saulius,Saulius,8,4,7,0,0,0,0,1,2,1,2,1,0,2
+20190919-1845-burritos-bbcballers,2019-09-19 18:45:00,bbcballers,BBC Ballers,bbcballers-lisa,Lisa,6,3,11,0,0,0,0,2,0,1,0,1,0,0
+20190919-1845-burritos-bbcballers,2019-09-19 18:45:00,bbcballers,BBC Ballers,bbcballers-james,James,4,2,13,0,0,0,0,4,6,1,4,0,0,0
+20190919-1845-burritos-bbcballers,2019-09-19 18:45:00,bbcballers,BBC Ballers,bbcballers-nathan,Nathan,3,1,2,1,1,0,0,2,2,0,4,0,0,1
+20190919-1845-burritos-bbcballers,2019-09-19 18:45:00,bbcballers,BBC Ballers,bbcballers-suheil,Suheil,0,0,2,0,1,0,0,2,4,0,4,0,0,0
+20190919-1845-burritos-bbcballers,2019-09-19 18:45:00,burritos,Burritos,burritos-wouter,Wouter,29,13,22,0,1,3,4,5,8,2,1,1,1,3
+20190919-1845-burritos-bbcballers,2019-09-19 18:45:00,burritos,Burritos,burritos-suzi,Suzi,11,5,7,1,1,0,2,1,0,3,2,1,0,0
+20190919-1845-burritos-bbcballers,2019-09-19 18:45:00,burritos,Burritos,burritos-sylwia,Sylwia,10,5,15,0,0,0,0,2,1,3,0,1,0,0
+20190919-1845-burritos-bbcballers,2019-09-19 18:45:00,burritos,Burritos,burritos-tom,Tom,9,3,8,3,8,0,0,1,9,7,3,4,2,0
+20190919-1845-burritos-bbcballers,2019-09-19 18:45:00,burritos,Burritos,burritos-allen,Allen,7,3,10,1,3,0,0,8,4,4,2,5,0,1
+20190919-1845-burritos-bbcballers,2019-09-19 18:45:00,burritos,Burritos,burritos-armelle,Armelle,4,2,6,0,1,0,0,1,0,2,0,1,0,1
+20190919-2100-lions-greenmachine,2019-09-19 21:00:00,greenmachine,Green Machine,greenmachine-iestyn,Iestyn,13,6,12,1,2,0,2,0,7,1,2,0,1,4
+20190919-2100-lions-greenmachine,2019-09-19 21:00:00,greenmachine,Green Machine,greenmachine-alex,Alex,11,5,17,0,0,1,2,3,10,0,1,2,1,4
+20190919-2100-lions-greenmachine,2019-09-19 21:00:00,greenmachine,Green Machine,greenmachine-ahmed,Ahmed,4,1,13,0,7,2,3,2,5,6,3,3,0,2
+20190919-2100-lions-greenmachine,2019-09-19 21:00:00,greenmachine,Green Machine,greenmachine-andris,Andris,4,2,5,0,0,0,0,1,1,1,6,1,0,0
+20190919-2100-lions-greenmachine,2019-09-19 21:00:00,greenmachine,Green Machine,,,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+20190919-2100-lions-greenmachine,2019-09-19 21:00:00,greenmachine,Green Machine,greenmachine-allison,Allison,0,0,1,0,0,0,0,1,1,0,1,0,0,0
+20190919-2100-lions-greenmachine,2019-09-19 21:00:00,greenmachine,Green Machine,greenmachine-marina,Marina,0,0,3,0,0,0,0,1,1,1,1,2,0,1
+20190919-2100-lions-greenmachine,2019-09-19 21:00:00,lions,Lions,lions-kata,Kata,15,7,16,1,3,0,0,0,0,2,4,0,0,2
+20190919-2100-lions-greenmachine,2019-09-19 21:00:00,lions,Lions,lions-mychelle,Mychelle,10,4,13,1,4,1,2,2,9,2,4,4,0,2
+20190919-2100-lions-greenmachine,2019-09-19 21:00:00,lions,Lions,lions-foley,Foley,7,3,11,0,3,1,2,2,8,2,1,3,2,1
+20190919-2100-lions-greenmachine,2019-09-19 21:00:00,lions,Lions,lions-telle,Telle,5,1,4,0,0,3,6,1,1,1,1,1,0,1
+20190919-2100-lions-greenmachine,2019-09-19 21:00:00,lions,Lions,lions-chris,Chris,3,1,6,0,0,1,2,2,7,1,2,2,0,1
+20190926-1845-rockets-greenmachine,2019-09-26 18:45:00,greenmachine,Green Machine,greenmachine-alex,Alex,4,1,10,0,0,2,6,0,8,0,3,4,0,4
+20190926-1845-rockets-greenmachine,2019-09-26 18:45:00,greenmachine,Green Machine,greenmachine-sergio,Sergio,2,1,2,0,1,0,3,1,0,1,8,4,0,0
+20190926-1845-rockets-greenmachine,2019-09-26 18:45:00,greenmachine,Green Machine,greenmachine-allison,Allison,0,0,0,0,0,0,0,0,1,0,3,0,0,0
+20190926-1845-rockets-greenmachine,2019-09-26 18:45:00,greenmachine,Green Machine,greenmachine-david,David,0,0,2,0,0,0,0,0,1,0,7,1,0,0
+20190926-1845-rockets-greenmachine,2019-09-26 18:45:00,greenmachine,Green Machine,greenmachine-iestyn,Iestyn,0,0,8,0,1,0,2,2,5,0,3,0,1,2
+20190926-1845-rockets-greenmachine,2019-09-26 18:45:00,greenmachine,Green Machine,greenmachine-marina,Marina,0,0,2,0,0,0,0,0,1,0,5,0,0,0
+20190926-1845-rockets-greenmachine,2019-09-26 18:45:00,greenmachine,Green Machine,greenmachine-victoria,Victoria,0,0,2,0,0,0,0,0,0,0,3,1,0,0
+20190926-1845-rockets-greenmachine,2019-09-26 18:45:00,rockets,Rockets,rockets-marc,Marc,16,7,10,0,1,2,2,2,6,2,2,6,0,6
+20190926-1845-rockets-greenmachine,2019-09-26 18:45:00,rockets,Rockets,rockets-alex,Alex,7,3,5,1,1,0,2,1,4,1,0,2,0,4
+20190926-1845-rockets-greenmachine,2019-09-26 18:45:00,rockets,Rockets,rockets-malachi,Malachi,7,3,5,0,0,1,2,1,6,0,2,2,3,1
+20190926-1845-rockets-greenmachine,2019-09-26 18:45:00,rockets,Rockets,rockets-anna,Anna,6,3,8,0,0,0,0,0,1,0,5,2,0,1
+20190926-1845-rockets-greenmachine,2019-09-26 18:45:00,rockets,Rockets,rockets-paul,Paul,5,2,8,0,1,1,2,1,1,4,1,4,0,2
+20190926-1845-rockets-greenmachine,2019-09-26 18:45:00,rockets,Rockets,rockets-janis,Janis,4,2,10,0,0,0,0,4,2,4,5,7,0,1
+20190926-1845-rockets-greenmachine,2019-09-26 18:45:00,rockets,Rockets,camdenhells-aimee,Aimee,0,0,1,0,0,0,0,0,0,1,1,2,0,0
+20190926-1930-camdenhells-bbcballers,2019-09-26 19:30:00,bbcballers,BBC Ballers,bbcballers-arthur,Arthur,9,4,17,1,7,0,0,0,0,2,1,0,0,1
+20190926-1930-camdenhells-bbcballers,2019-09-26 19:30:00,bbcballers,BBC Ballers,lions-mychelle,Mychelle,5,2,14,0,2,1,2,3,5,0,2,2,1,1
+20190926-1930-camdenhells-bbcballers,2019-09-26 19:30:00,bbcballers,BBC Ballers,bbcballers-james,James,4,1,5,1,2,1,2,2,4,0,2,0,0,1
+20190926-1930-camdenhells-bbcballers,2019-09-26 19:30:00,bbcballers,BBC Ballers,bbcballers-lisa,Lisa,4,2,13,0,0,0,2,1,2,0,3,1,0,0
+20190926-1930-camdenhells-bbcballers,2019-09-26 19:30:00,bbcballers,BBC Ballers,kissmygrass-steph,Steph-Kansas,2,1,6,0,0,0,0,2,2,0,0,0,0,0
+20190926-1930-camdenhells-bbcballers,2019-09-26 19:30:00,bbcballers,BBC Ballers,bbcballers-suheil,Suheil,0,0,3,0,1,0,0,3,8,0,3,1,0,2
+20190926-1930-camdenhells-bbcballers,2019-09-26 19:30:00,camdenhells,Camden Hells,rockets-malachi,Malachi,20,10,19,0,0,0,3,8,22,2,3,3,5,3
+20190926-1930-camdenhells-bbcballers,2019-09-26 19:30:00,camdenhells,Camden Hells,camdenhells-levent,Levent,14,6,15,1,4,1,2,1,1,3,5,2,0,1
+20190926-1930-camdenhells-bbcballers,2019-09-26 19:30:00,camdenhells,Camden Hells,camdenhells-davidgalindo,David Galindo,5,2,9,0,1,1,2,4,7,3,3,2,1,0
+20190926-1930-camdenhells-bbcballers,2019-09-26 19:30:00,camdenhells,Camden Hells,camdenhells-aimee,Aimee,4,2,4,0,0,0,0,1,1,0,1,0,0,1
+20190926-1930-camdenhells-bbcballers,2019-09-26 19:30:00,camdenhells,Camden Hells,camdenhells-lauren,Lauren,2,1,7,0,0,0,0,0,2,1,0,0,0,2
+20190926-1930-camdenhells-bbcballers,2019-09-26 19:30:00,camdenhells,Camden Hells,rockets-anna,Anna,2,1,5,0,0,0,0,2,1,1,0,1,1,1
+20190926-2015-burritos-dropbears,2019-09-26 20:15:00,burritos,Burritos,burritos-wouter,Wouter,20,8,14,0,0,4,7,5,11,0,3,0,0,2
+20190926-2015-burritos-dropbears,2019-09-26 20:15:00,burritos,Burritos,burritos-stuart,Stuart,11,4,12,2,7,1,2,0,2,0,0,0,0,0
+20190926-2015-burritos-dropbears,2019-09-26 20:15:00,burritos,Burritos,burritos-sylwia,Sylwia,9,4,8,0,0,1,2,2,0,0,0,1,0,1
+20190926-2015-burritos-dropbears,2019-09-26 20:15:00,burritos,Burritos,burritos-alex,Alex Connor,3,1,8,0,3,1,2,1,4,2,0,2,0,1
+20190926-2015-burritos-dropbears,2019-09-26 20:15:00,burritos,Burritos,burritos-suzi,Suzi,3,1,3,1,2,0,0,0,1,1,1,0,0,0
+20190926-2015-burritos-dropbears,2019-09-26 20:15:00,burritos,Burritos,burritos-tom,Tom,2,1,4,0,3,0,0,0,5,4,2,3,0,1
+20190926-2015-burritos-dropbears,2019-09-26 20:15:00,burritos,Burritos,burritos-allen,Allen,0,0,4,0,1,0,0,1,2,3,0,2,0,1
+20190926-2015-burritos-dropbears,2019-09-26 20:15:00,burritos,Burritos,burritos-armelle,Armelle,0,0,3,0,0,0,0,2,1,1,0,0,0,0
+20190926-2015-burritos-dropbears,2019-09-26 20:15:00,dropbears,Dropbears,dropbears-ray,Ray,15,6,12,1,3,2,2,1,3,0,0,4,0,2
+20190926-2015-burritos-dropbears,2019-09-26 20:15:00,dropbears,Dropbears,dropbears-martin,Martin,8,3,8,0,0,2,2,1,6,1,2,1,1,3
+20190926-2015-burritos-dropbears,2019-09-26 20:15:00,dropbears,Dropbears,dropbears-mary,Mary,6,2,11,2,5,0,0,0,2,2,2,0,0,0
+20190926-2015-burritos-dropbears,2019-09-26 20:15:00,dropbears,Dropbears,dropbears-p2,P2,6,3,7,0,0,0,0,2,9,2,4,0,0,0
+20190926-2015-burritos-dropbears,2019-09-26 20:15:00,dropbears,Dropbears,dropbears-ed,Ed,0,0,4,0,2,0,0,0,2,3,1,0,0,3
+20190926-2015-burritos-dropbears,2019-09-26 20:15:00,dropbears,Dropbears,dropbears-hayley,Hayley,0,0,1,0,0,0,0,0,1,0,0,0,0,0
+20190926-2015-burritos-dropbears,2019-09-26 20:15:00,dropbears,Dropbears,lions-mychelle,Mychelle,0,0,5,0,2,0,0,0,0,1,0,0,0,0
+20190926-2100-lostangels-lions,2019-09-26 21:00:00,lions,Lions,lions-mychelle,Mychelle,8,3,10,2,3,0,0,2,1,2,1,0,0,0
+20190926-2100-lostangels-lions,2019-09-26 21:00:00,lions,Lions,lions-kata,Kata,6,3,13,0,0,0,0,2,3,2,4,3,0,1
+20190926-2100-lostangels-lions,2019-09-26 21:00:00,lions,Lions,lions-foley,Foley,5,1,8,0,1,3,5,0,6,1,0,2,0,0
+20190926-2100-lostangels-lions,2019-09-26 21:00:00,lions,Lions,lions-gus,Gus,4,2,7,0,0,0,0,3,9,0,1,0,1,3
+20190926-2100-lostangels-lions,2019-09-26 21:00:00,lions,Lions,lions-diego,Diego,2,1,5,0,0,0,2,1,1,1,4,3,0,1
+20190926-2100-lostangels-lions,2019-09-26 21:00:00,lions,Lions,camdenhells-lauren,Lauren,0,0,1,0,0,0,0,0,0,0,1,0,0,0
+20190926-2100-lostangels-lions,2019-09-26 21:00:00,lions,Lions,lions-telle,Telle,0,0,4,0,0,0,0,0,1,0,3,0,0,2
+20190926-2100-lostangels-lions,2019-09-26 21:00:00,lostangels,Lost Angels,saturdays-claire,Claire,18,7,18,0,1,4,5,0,1,0,2,1,0,0
+20190926-2100-lostangels-lions,2019-09-26 21:00:00,lostangels,Lost Angels,lostangels-carlos,Carlos,16,8,12,0,0,0,2,2,6,0,1,2,0,2
+20190926-2100-lostangels-lions,2019-09-26 21:00:00,lostangels,Lost Angels,lostangels-rob,Rob,8,4,10,0,0,0,2,2,4,2,3,1,1,0
+20190926-2100-lostangels-lions,2019-09-26 21:00:00,lostangels,Lost Angels,lostangels-rolands,Rolands,8,4,6,0,0,0,1,5,3,4,0,2,3,0
+20190926-2100-lostangels-lions,2019-09-26 21:00:00,lostangels,Lost Angels,lostangels-daria,Daria,6,1,5,1,3,3,3,0,1,2,1,2,0,0
+20190926-2100-lostangels-lions,2019-09-26 21:00:00,lostangels,Lost Angels,lostangels-jazeps,Jazeps,4,2,8,0,0,0,2,4,6,3,3,2,0,1
+20190926-2100-lostangels-lions,2019-09-26 21:00:00,lostangels,Lost Angels,lostangels-aldis,Aldis,0,0,2,0,1,0,0,1,7,4,2,0,0,2
