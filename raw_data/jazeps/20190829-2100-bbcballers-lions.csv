@@ -1,0 +1,16 @@
+team,player,pts,fgm,fga,fg%,3pm,3pa,3p%,ftm,fta,ft%,oreb,dreb,reb,ast,tov,stl,blk,blka,fc,fd,pir
+bbcballers,bbcballers-suhail,0,0,1,0.0,0,1,0.0,0,0,0,1,3,4,0,1,0,0,0,1,0,1
+bbcballers,bbcballers-alexandra,0,0,4,0.0,0,0,0,0,0,0,0,2,2,0,2,0,0,0,0,1,-3
+bbcballers,dropbears-mary,22,8,22,36.4,6,11,54.5,0,0,0,0,0,0,0,1,1,0,1,0,0,7
+bbcballers,bbcballers-james,2,1,4,25.0,0,0,0,0,0,0,2,2,4,0,1,0,1,0,0,0,3
+bbcballers,bbcballers-arthur,2,1,7,14.3,0,4,0.0,0,2,0.0,0,4,4,4,4,2,0,0,1,2,1
+bbcballers,bbcballers-amir,5,2,10,20.0,1,3,33.3,0,0,0,0,5,5,3,3,1,0,1,3,0,-1
+bbcballers,bbcballers-lisa,2,1,10,10.0,0,0,0,0,0,0,1,2,3,1,3,2,0,1,0,0,-5
+bbcballers,total,33,13,58,22.4,7,19,36.8,0,2,0.0,5,22,27,8,15,6,1,3,5,3,8
+lions,lions-telle,8,4,10,40.0,0,0,0,0,0,0,4,4,8,3,0,1,0,1,1,0,12
+lions,lions-mychelle,24,9,36,25.0,0,3,0.0,6,6,100.0,4,3,7,3,3,5,0,0,0,3,12
+lions,lions-saulius,5,2,4,50.0,0,0,0,1,2,50.0,2,21,23,4,2,1,1,0,1,1,29
+lions,lions-gus,11,5,14,35.7,0,0,0,1,2,50.0,4,5,9,0,2,1,2,0,0,1,12
+lions,lions-obi,8,4,4,100.0,0,0,0,0,0,0,11,1,12,9,2,1,0,0,0,0,28
+lions,camdenhells-lauren,8,4,11,36.4,0,0,0,0,0,0,2,1,3,0,1,1,0,0,1,0,3
+lions,total,68,30,81,37.0,0,3,0.0,8,10,80.0,29,41,70,19,11,10,3,1,3,5,107
