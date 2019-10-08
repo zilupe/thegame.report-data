@@ -1,5 +1,7 @@
+import collections
 import dataclasses
 import datetime as dt
+from typing import ClassVar, List, Dict
 
 
 @dataclasses.dataclass
@@ -45,12 +47,34 @@ class GameRecord:
     blk: int = 0
     pf: int = 0
 
+    raw_stat_fields: ClassVar[List[str]] = (
+        "fgm",
+        "fga",
+        "tpm",
+        "tpa",
+        "ftm",
+        "fta",
+        "pts",
+        "oreb",
+        "dreb",
+        "reb",
+        "ast",
+        "stl",
+        "tov",
+        "blk",
+        "pf",
+    )
+
+    def to_dict(self) -> Dict:
+        return dataclasses.asdict(self, dict_factory=collections.OrderedDict)
+
 
 @dataclasses.dataclass
 class PlayerGameRecord(GameRecord):
     player_id: str = None
+    opponent_id: str = None
 
 
 @dataclasses.dataclass
 class TeamGameRecord(GameRecord):
-    pass
+    opponent_id: str = None
