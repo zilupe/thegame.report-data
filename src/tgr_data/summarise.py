@@ -2,11 +2,12 @@ import csv
 import itertools
 import logging
 from pathlib import Path
-from typing import Generator, Dict, Type, List
+from typing import Generator, Dict, Type, List, Tuple
 
 from cached_property import cached_property
 
-from tgr_data.base import Player, Team, Game, PlayerGameRecord, GameRecord, TeamGameRecord, TeamGameStats
+from tgr_data.base import Player, Team, Game, PlayerGameRecord, GameRecord, TeamGameRecord, TeamGameStats, \
+    PlayerGameStats, Stats
 
 log = logging.getLogger(__name__)
 
@@ -154,11 +155,10 @@ class League:
     def _record_sort_key(self, record: GameRecord):
         return record.game_id, record.side_id, getattr(record, "player_id", "")
 
-    def get_game_team_records(self, input_dirs: List[Path]) -> Generator[TeamGameRecord, None, None]:
+    def get_game_records(self, input_dirs: List[Path]) -> Generator[Tuple[TeamGameRecord, List[PlayerGameRecord]], None, None]:
         """
-        Generate TeamGameRecord, one for each side of each game.
+        Generate TeamGameRecord, one for each side of each game, along with a list of player records.
         """
-
         records_by_game = itertools.groupby(
             sorted(self.get_all_records(input_dirs), key=self._record_sort_key),
             key=lambda r: (r.game_id, r.side_id),
@@ -167,6 +167,7 @@ class League:
             records = list(records_iter)
             team_record = records[0]
             if not isinstance(team_record, TeamGameRecord):
+                player_records = records
                 team_record = TeamGameRecord(
                     game_id=game_id,
                     side_id=side_id,
@@ -175,20 +176,31 @@ class League:
                 )
                 for f in GameRecord.raw_stat_fields:
                     setattr(team_record, f, sum(getattr(r, f) for r in records))
-            yield team_record
+            else:
+                player_records = records[1:]
+            yield team_record, player_records
 
-    def get_game_team_stats(self, input_dirs: List[Path]) -> Generator[TeamGameStats, None, None]:
+    def get_game_stats(self, input_dirs: List[Path]) -> Generator[TeamGameStats, None, None]:
 
-        records_by_game = itertools.groupby(self.get_game_team_records(input_dirs=input_dirs), key=lambda r: r.game_id)
+        records_by_game = itertools.groupby(
+            self.get_game_records(input_dirs=input_dirs),
+            key=lambda gr: gr[0].game_id,
+        )
         for game_id, records_iter in records_by_game:
-            records = list(records_iter)
-            if len(records) != 2:
+            team_records = []
+
+            for gr in records_iter:
+                team_records.append(gr[0])
+                for pr in gr[1]:
+                    yield PlayerGameStats(record=pr)
+
+            if len(team_records) == 2:
+                team_records[0].opponent_pts = team_records[1].pts
+                team_records[1].opponent_pts = team_records[0].pts
+                yield TeamGameStats(record=team_records[0])
+                yield TeamGameStats(record=team_records[1])
+            else:
                 log.warning(f"Incomplete data for game {game_id}, excluding")
-                continue
-            records[0].opponent_pts = records[1].pts
-            records[1].opponent_pts = records[0].pts
-            yield TeamGameStats(record=records[0])
-            yield TeamGameStats(record=records[1])
 
 
 def main():
@@ -205,16 +217,27 @@ def main():
 
     league = League()
 
-    team_stats = list(league.get_game_team_stats(input_dirs))
+    team_stats = []
+    player_stats = []
+    for stats in league.get_game_stats(input_dirs):
+        if isinstance(stats, TeamGameStats):
+            team_stats.append(stats)
+        else:
+            player_stats.append(stats)
 
-    output_path = Path("../reports/team-stats.csv")
-    with output_path.open("w") as f:
-        writer = csv.DictWriter(f, fieldnames=team_stats[0].to_dict().keys())
-        writer.writeheader()
-        for record in team_stats:
-            writer.writerow(record.to_dict())
+    outputs: Dict[str, List[Stats]] = {
+        "team-stats.csv": team_stats,
+        "player-stats.csv": player_stats,
+    }
 
-    log.info(f"Output written to {output_path}")
+    for filename, stats_objects in outputs.items():
+        output_path = Path(f"../reports/{filename}")
+        with output_path.open("w") as f:
+            writer = csv.DictWriter(f, fieldnames=stats_objects[0].to_dict().keys())
+            writer.writeheader()
+            for stats in stats_objects:
+                writer.writerow(stats.to_dict())
+        log.info(f"Output written to {output_path}")
 
 
 if __name__ == "__main__":

@@ -90,14 +90,10 @@ class TeamGameRecord(GameRecord):
     opponent_pts: int = 0
 
 
-class TeamGameStats:
-    stats_fields = (
-        "possessions",
-        "defensive_eff",
-        "offensive_eff",
-    )
+class Stats:
+    stats_fields: List[str] = ()
 
-    def __init__(self, record: TeamGameRecord):
+    def __init__(self, record: GameRecord):
         self.record = record
 
     def to_dict(self) -> Dict:
@@ -105,6 +101,16 @@ class TeamGameStats:
             **self.record.to_dict(),
             **{k: getattr(self, k) for k in self.stats_fields},
         }
+
+
+class TeamGameStats(Stats):
+    record: TeamGameRecord
+
+    stats_fields = (
+        "possessions",
+        "defensive_eff",
+        "offensive_eff",
+    )
 
     @property
     def possessions(self) -> float:
@@ -122,3 +128,7 @@ class TeamGameStats:
     def offensive_eff(self) -> float:
         # https://www.nbastuffer.com/analytics101/offensive-efficiency/
         return 100 * (self.record.pts / self.possessions)
+
+
+class PlayerGameStats(Stats):
+    record: PlayerGameRecord
