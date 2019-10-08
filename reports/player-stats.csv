@@ -145,6 +145,13 @@ game_id,side_id,team_id,opponent_id,fgm,fga,tpm,tpa,ftm,fta,pts,oreb,dreb,reb,as
 20190829-2100-bbcballers-lions,1,lions,bbcballers,4,4,0,0,0,0,8,11,1,12,9,1,2,0,0,lions-obi
 20190829-2100-bbcballers-lions,1,lions,bbcballers,2,4,0,0,1,2,5,2,21,23,4,1,2,1,1,lions-saulius
 20190829-2100-bbcballers-lions,1,lions,bbcballers,4,10,0,0,0,0,8,4,4,8,3,1,0,0,1,lions-telle
+20190905-1845-bbcballers-lostangels,1,lostangels,bbcballers,3,7,1,4,3,7,12,0,4,0,1,1,1,4,3,lostangels-aldis
+20190905-1845-bbcballers-lostangels,1,lostangels,bbcballers,4,6,0,0,0,0,8,3,3,0,2,1,2,2,0,lostangels-carlos
+20190905-1845-bbcballers-lostangels,1,lostangels,bbcballers,2,9,0,0,0,0,4,0,0,0,6,2,1,0,0,lostangels-carlotta
+20190905-1845-bbcballers-lostangels,1,lostangels,bbcballers,3,7,1,5,0,0,7,0,1,0,0,1,0,0,0,lostangels-daria
+20190905-1845-bbcballers-lostangels,1,lostangels,bbcballers,7,16,1,2,0,0,15,6,2,0,6,4,0,0,1,lostangels-jazeps
+20190905-1845-bbcballers-lostangels,1,lostangels,bbcballers,6,9,0,0,0,0,12,4,9,0,4,3,2,0,0,lostangels-john
+20190905-1845-bbcballers-lostangels,1,lostangels,bbcballers,0,6,0,0,0,0,0,0,7,0,1,0,1,1,1,lostangels-sophie
 20190905-2015-burritos-greenmachine,0,burritos,greenmachine,10,14,3,5,0,0,23,1,7,8,3,0,2,0,2,burritos-alex
 20190905-2015-burritos-greenmachine,0,burritos,greenmachine,1,7,0,3,2,2,4,0,3,3,6,0,2,0,0,burritos-allen
 20190905-2015-burritos-greenmachine,0,burritos,greenmachine,3,5,0,0,0,0,6,1,0,1,1,1,2,0,1,burritos-armelle
