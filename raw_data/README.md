@@ -1,4 +1,29 @@
 
+### Expected Inputs
+
+For the first stats season:
+
+    game_id
+    side_id
+    player_id
+    fgm
+    fga
+    3pm
+    3pa
+    ftm
+    fta
+    pts
+    oreb
+    dreb
+    reb *
+    ast
+    stl
+    tov
+    blk
+    pf
+
+----
+
 ### Easystats
 
 To make a workable CSV from their HTML "export":
@@ -9,6 +34,8 @@ To make a workable CSV from their HTML "export":
 * Copy paste the table from the HTML page, select "Match Destination Formatting" option in Paste menu.
 * Clean up player names
 * Open in text editor, replace tabs with commas
+
+Some games have one team, some games have team totals, some don't.
 
 ### Statastic
 
