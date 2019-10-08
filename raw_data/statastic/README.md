@@ -1,3 +1,8 @@
+
+### Easystats
+
+### Statastic
+
 Manual steps involved in preparation:
 
 * Lowercase all
@@ -5,3 +10,7 @@ Manual steps involved in preparation:
 * Replace all player names with their SK PLAYER ID. For example, `Carlos` should be `lostangels-carlos`.
 * Rename each file to match the SK GAME ID.
 * Replaced semicolons with commas
+
+### SK v3
+
+### SK v4
