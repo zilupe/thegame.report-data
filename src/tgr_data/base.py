@@ -1,10 +1,19 @@
 import dataclasses
+import datetime as dt
 
 
 @dataclasses.dataclass
 class Team:
     id: str
     name: str
+
+
+@dataclasses.dataclass
+class Game:
+    id: str
+    scheduled_time: dt.datetime
+    home_side_id: str
+    away_side_id: str
 
 
 @dataclasses.dataclass

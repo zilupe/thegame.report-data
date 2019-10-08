@@ -7,7 +7,7 @@ import logging
 from pathlib import Path
 from typing import Generator
 
-from tgr_data.base import Player, Team
+from tgr_data.base import Player, Team, Game
 
 log = logging.getLogger(__name__)
 
@@ -33,6 +33,12 @@ def get_registered_teams() -> Generator[Team, None, None]:
             yield Team(**row)
 
 
+def get_registered_games() -> Generator[Game, None, None]:
+    with (raw_data_dir / "sk_game_ids.csv").open("r") as f:
+        for row in csv.DictReader(f):
+            yield Game(**row)
+
+
 def get_input_files() -> Generator[Path, None, None]:
     for input_dir in input_dirs:
         for item in input_dir.iterdir():
@@ -45,22 +51,35 @@ def main():
 
     logging.basicConfig(level=logging.DEBUG)
 
-    registered_teams = {team.id: team for team in get_registered_teams()}
+    teams = {team.id: team for team in get_registered_teams()}
+    players = {player.id: player for player in get_registered_players()}
+    games = {game.id: game for game in get_registered_games()}
 
-    registered_players = {player.id: player for player in get_registered_players()}
-    log.info(f"Found {len(registered_players)} registered players")
+    log.info(f"Found {len(players)} registered players")
+    log.info(f"Found {len(teams)} registered teams")
+    log.info(f"Found {len(games)} registered games")
 
     for path in get_input_files():
         log.info(f"Processing {path}")
+
+        # game = games[path.stem]
+
         with path.open("r") as f:
             reader = csv.DictReader(f)
             for row in reader:
-                if row["player"] in registered_teams:
+
+                r = dict(row)
+
+                if r["player"] in teams:
+                    # TODO team stats!
                     continue
-                try:
-                    player = registered_players[row["player"]]
-                except KeyError:
-                    log.warning(f"Player {row['player']} not found")
+
+                player = players[r["player"]]
+                team = teams[r["team"]]
+
+    for path in get_input_files():
+        print(path.stem)
+
 
 
 if __name__ == "__main__":
