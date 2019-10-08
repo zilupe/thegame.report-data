@@ -40,6 +40,7 @@ class GameRecord:
     game_id: str = None
     side_id: int = None
     team_id: str = None
+    opponent_id: str = None
 
     fgm: int = 0
     fga: int = 0
@@ -82,9 +83,42 @@ class GameRecord:
 @dataclasses.dataclass
 class PlayerGameRecord(GameRecord):
     player_id: str = None
-    opponent_id: str = None
 
 
 @dataclasses.dataclass
 class TeamGameRecord(GameRecord):
-    opponent_id: str = None
+    opponent_pts: int = 0
+
+
+class TeamGameStats:
+    stats_fields = (
+        "possessions",
+        "defensive_eff",
+        "offensive_eff",
+    )
+
+    def __init__(self, record: TeamGameRecord):
+        self.record = record
+
+    def to_dict(self) -> Dict:
+        return {
+            **self.record.to_dict(),
+            **{k: getattr(self, k) for k in self.stats_fields},
+        }
+
+    @property
+    def possessions(self) -> float:
+        # https://www.nbastuffer.com/analytics101/possession/
+        return 0.96 * (
+            self.record.fga + self.record.tov + .44 * self.record.fta - self.record.oreb
+        )
+
+    @property
+    def defensive_eff(self) -> float:
+        # https://www.nbastuffer.com/analytics101/defensive-efficiency/
+        return 100 * (self.record.opponent_pts / self.possessions)
+
+    @property
+    def offensive_eff(self) -> float:
+        # https://www.nbastuffer.com/analytics101/offensive-efficiency/
+        return 100 * (self.record.pts / self.possessions)

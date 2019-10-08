@@ -6,7 +6,7 @@ from typing import Generator, Dict, Type, List
 
 from cached_property import cached_property
 
-from tgr_data.base import Player, Team, Game, PlayerGameRecord, GameRecord, TeamGameRecord
+from tgr_data.base import Player, Team, Game, PlayerGameRecord, GameRecord, TeamGameRecord, TeamGameStats
 
 log = logging.getLogger(__name__)
 
@@ -32,11 +32,11 @@ def row_to_record(row: Dict, record_cls: Type[GameRecord] = GameRecord):
 
     # Easystats
     if "fg*" in r and "-" in r["fg*"]:
-        record.fga, record.fgm = [int(x) for x in r.pop("fg*").split("-")]
+        record.fgm, record.fga = [int(x) for x in r.pop("fg*").split("-")]
     if "ft" in r and "-" in r["ft"]:
-        record.fta, record.ftm = [int(x) for x in r.pop("ft").split("-")]
+        record.ftm, record.fta = [int(x) for x in r.pop("ft").split("-")]
     if "3pt" in r and "-" in r["3pt"]:
-        record.tpa, record.tpm = [int(x) for x in r.pop("3pt").split("-")]
+        record.tpm, record.tpa = [int(x) for x in r.pop("3pt").split("-")]
 
     for f in ("dreb", "oreb", "reb", "ast", "stl", "tov", "blk", "pts", "fta", "ftm", "fga", "fgm", "tpa", "tpm", "pf"):
         if f in r:
@@ -177,6 +177,19 @@ class League:
                     setattr(team_record, f, sum(getattr(r, f) for r in records))
             yield team_record
 
+    def get_game_team_stats(self, input_dirs: List[Path]) -> Generator[TeamGameStats, None, None]:
+
+        records_by_game = itertools.groupby(self.get_game_team_records(input_dirs=input_dirs), key=lambda r: r.game_id)
+        for game_id, records_iter in records_by_game:
+            records = list(records_iter)
+            if len(records) != 2:
+                log.warning(f"Incomplete data for game {game_id}, excluding")
+                continue
+            records[0].opponent_pts = records[1].pts
+            records[1].opponent_pts = records[0].pts
+            yield TeamGameStats(record=records[0])
+            yield TeamGameStats(record=records[1])
+
 
 def main():
     path: Path
@@ -192,13 +205,13 @@ def main():
 
     league = League()
 
-    team_records = list(league.get_game_team_records(input_dirs))
+    team_stats = list(league.get_game_team_stats(input_dirs))
 
-    output_path = Path("../reports/team-records.csv")
+    output_path = Path("../reports/team-stats.csv")
     with output_path.open("w") as f:
-        writer = csv.DictWriter(f, fieldnames=team_records[0].to_dict().keys())
+        writer = csv.DictWriter(f, fieldnames=team_stats[0].to_dict().keys())
         writer.writeheader()
-        for record in team_records:
+        for record in team_stats:
             writer.writerow(record.to_dict())
 
     log.info(f"Output written to {output_path}")
