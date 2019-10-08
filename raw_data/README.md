@@ -12,7 +12,7 @@ For the first stats season:
     3pa
     ftm
     fta
-    pts
+    pts *
     oreb
     dreb
     reb *
@@ -21,6 +21,8 @@ For the first stats season:
     tov
     blk
     pf
+
+Those marked with \* are not really needed as they can be calculated from others.
 
 ----
 
