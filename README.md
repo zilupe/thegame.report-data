@@ -1,4 +1,8 @@
 
+### 2019-10-08
+
+* Under `raw_data/allen/statastic/` added manually cleaned up Statastic CSV files
+
 ### 2019-09-29
 
 * Under `games-stats/` you'll find an extract of game stats logged in the simple mode of the Stats Keyboard.
