@@ -1,0 +1,16 @@
+game_id,scheduled_time,team,player,pts,fgm,fga,fg%,3pm,3pa,3p%,ftm,fta,ft%,oreb,dreb,reb,ast,tov,stl,blk,pf
+20190926-2015-burritos-dropbears,2019-09-26 20:15:00,burritos,burritos-wouter,20,8,14,57.1428571428571,0,0,,4,7,0,5,11,16,0,3,0,0,2
+20190926-2015-burritos-dropbears,2019-09-26 20:15:00,burritos,burritos-stuart,11,4,12,33.3333333333333,2,7,28.5714285714286,1,2,0,0,2,2,0,0,0,0,0
+20190926-2015-burritos-dropbears,2019-09-26 20:15:00,burritos,burritos-sylwia,9,4,8,50.0,0,0,,1,2,0,2,0,2,0,0,1,0,1
+20190926-2015-burritos-dropbears,2019-09-26 20:15:00,burritos,burritos-alex,3,1,8,12.5,0,3,0.0,1,2,0,1,4,5,2,0,2,0,1
+20190926-2015-burritos-dropbears,2019-09-26 20:15:00,burritos,burritos-suzi,3,1,3,33.3333333333333,1,2,50.0,0,0,,0,1,1,1,1,0,0,0
+20190926-2015-burritos-dropbears,2019-09-26 20:15:00,burritos,burritos-tom,2,1,4,25.0,0,3,0.0,0,0,,0,5,5,4,2,3,0,1
+20190926-2015-burritos-dropbears,2019-09-26 20:15:00,burritos,burritos-allen,0,0,4,0.0,0,1,0.0,0,0,,1,2,3,3,0,2,0,1
+20190926-2015-burritos-dropbears,2019-09-26 20:15:00,burritos,burritos-armelle,0,0,3,0.0,0,0,,0,0,,2,1,3,1,0,0,0,0
+20190926-2015-burritos-dropbears,2019-09-26 20:15:00,dropbears,dropbears-ray,15,6,12,50.0,1,3,33.3333333333333,2,2,1,1,3,4,0,0,4,0,2
+20190926-2015-burritos-dropbears,2019-09-26 20:15:00,dropbears,dropbears-martin,8,3,8,37.5,0,0,,2,2,1,1,6,7,1,2,1,1,3
+20190926-2015-burritos-dropbears,2019-09-26 20:15:00,dropbears,dropbears-mary,6,2,11,18.1818181818182,2,5,40.0,0,0,,0,2,2,2,2,0,0,0
+20190926-2015-burritos-dropbears,2019-09-26 20:15:00,dropbears,dropbears-p2,6,3,7,42.8571428571429,0,0,,0,0,,2,9,11,2,4,0,0,0
+20190926-2015-burritos-dropbears,2019-09-26 20:15:00,dropbears,dropbears-ed,0,0,4,0.0,0,2,0.0,0,0,,0,2,2,3,1,0,0,3
+20190926-2015-burritos-dropbears,2019-09-26 20:15:00,dropbears,dropbears-hayley,0,0,1,0.0,0,0,,0,0,,0,1,1,0,0,0,0,0
+20190926-2015-burritos-dropbears,2019-09-26 20:15:00,dropbears,lions-mychelle,0,0,5,0.0,0,2,0.0,0,0,,0,0,0,1,0,0,0,0

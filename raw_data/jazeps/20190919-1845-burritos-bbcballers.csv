@@ -1,0 +1,13 @@
+game_id,scheduled_time,team,player,pts,fgm,fga,fg%,3pm,3pa,3p%,ftm,fta,ft%,oreb,dreb,reb,ast,tov,stl,blk,pf
+20190919-1845-burritos-bbcballers,2019-09-19 18:45:00,bbcballers,bbcballers-arthur,12,4,14,28.5714285714286,2,7,28.5714285714286,2,4,0,0,1,1,1,2,2,0,1
+20190919-1845-burritos-bbcballers,2019-09-19 18:45:00,bbcballers,bbcballers-saulius,8,4,7,57.1428571428571,0,0,,0,0,,1,2,3,1,2,1,0,2
+20190919-1845-burritos-bbcballers,2019-09-19 18:45:00,bbcballers,bbcballers-lisa,6,3,11,27.2727272727273,0,0,,0,0,,2,0,2,1,0,1,0,0
+20190919-1845-burritos-bbcballers,2019-09-19 18:45:00,bbcballers,bbcballers-james,4,2,13,15.3846153846154,0,0,,0,0,,4,6,10,1,4,0,0,0
+20190919-1845-burritos-bbcballers,2019-09-19 18:45:00,bbcballers,bbcballers-nathan,3,1,2,50.0,1,1,100.0,0,0,,2,2,4,0,4,0,0,1
+20190919-1845-burritos-bbcballers,2019-09-19 18:45:00,bbcballers,bbcballers-suheil,0,0,2,0.0,0,1,0.0,0,0,,2,4,6,0,4,0,0,0
+20190919-1845-burritos-bbcballers,2019-09-19 18:45:00,burritos,burritos-wouter,29,13,22,59.0909090909091,0,1,0.0,3,4,0,5,8,13,2,1,1,1,3
+20190919-1845-burritos-bbcballers,2019-09-19 18:45:00,burritos,burritos-suzi,11,5,7,71.4285714285714,1,1,100.0,0,2,0,1,0,1,3,2,1,0,0
+20190919-1845-burritos-bbcballers,2019-09-19 18:45:00,burritos,burritos-sylwia,10,5,15,33.3333333333333,0,0,,0,0,,2,1,3,3,0,1,0,0
+20190919-1845-burritos-bbcballers,2019-09-19 18:45:00,burritos,burritos-tom,9,3,8,37.5,3,8,37.5,0,0,,1,9,10,7,3,4,2,0
+20190919-1845-burritos-bbcballers,2019-09-19 18:45:00,burritos,burritos-allen,7,3,10,30.0,1,3,33.3333333333333,0,0,,8,4,12,4,2,5,0,1
+20190919-1845-burritos-bbcballers,2019-09-19 18:45:00,burritos,burritos-armelle,4,2,6,33.3333333333333,0,1,0.0,0,0,,1,0,1,2,0,1,0,1

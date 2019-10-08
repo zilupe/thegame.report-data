@@ -1,0 +1,12 @@
+game_id,scheduled_time,team,player,pts,fgm,fga,fg%,3pm,3pa,3p%,ftm,fta,ft%,oreb,dreb,reb,ast,tov,stl,blk,pf
+20190919-2100-lions-greenmachine,2019-09-19 21:00:00,greenmachine,greenmachine-iestyn,13,6,12,50.0,1,2,50.0,0,2,0,0,7,7,1,2,0,1,4
+20190919-2100-lions-greenmachine,2019-09-19 21:00:00,greenmachine,greenmachine-alex,11,5,17,29.4117647058824,0,0,,1,2,0,3,10,13,0,1,2,1,4
+20190919-2100-lions-greenmachine,2019-09-19 21:00:00,greenmachine,greenmachine-ahmed,4,1,13,7.69230769230769,0,7,0.0,2,3,0,2,5,7,6,3,3,0,2
+20190919-2100-lions-greenmachine,2019-09-19 21:00:00,greenmachine,greenmachine-andris,4,2,5,40.0,0,0,,0,0,,1,1,2,1,6,1,0,0
+20190919-2100-lions-greenmachine,2019-09-19 21:00:00,greenmachine,greenmachine-allison,0,0,1,0.0,0,0,,0,0,,1,1,2,0,1,0,0,0
+20190919-2100-lions-greenmachine,2019-09-19 21:00:00,greenmachine,greenmachine-marina,0,0,3,0.0,0,0,,0,0,,1,1,2,1,1,2,0,1
+20190919-2100-lions-greenmachine,2019-09-19 21:00:00,lions,lions-kata,15,7,16,43.75,1,3,33.3333333333333,0,0,,0,0,0,2,4,0,0,2
+20190919-2100-lions-greenmachine,2019-09-19 21:00:00,lions,lions-mychelle,10,4,13,30.7692307692308,1,4,25.0,1,2,0,2,9,11,2,4,4,0,2
+20190919-2100-lions-greenmachine,2019-09-19 21:00:00,lions,lions-foley,7,3,11,27.2727272727273,0,3,0.0,1,2,0,2,8,10,2,1,3,2,1
+20190919-2100-lions-greenmachine,2019-09-19 21:00:00,lions,lions-telle,5,1,4,25.0,0,0,,3,6,0,1,1,2,1,1,1,0,1
+20190919-2100-lions-greenmachine,2019-09-19 21:00:00,lions,lions-chris,3,1,6,16.6666666666667,0,0,,1,2,0,2,7,9,1,2,2,0,1

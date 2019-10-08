@@ -1,0 +1,15 @@
+game_id,scheduled_time,team,player,pts,fgm,fga,fg%,3pm,3pa,3p%,ftm,fta,ft%,oreb,dreb,reb,ast,tov,stl,blk,pf
+20190926-2100-lostangels-lions,2019-09-26 21:00:00,lions,lions-mychelle,8,3,10,30.0,2,3,66.6666666666667,0,0,,2,1,3,2,1,0,0,0
+20190926-2100-lostangels-lions,2019-09-26 21:00:00,lions,lions-kata,6,3,13,23.0769230769231,0,0,,0,0,,2,3,5,2,4,3,0,1
+20190926-2100-lostangels-lions,2019-09-26 21:00:00,lions,lions-foley,5,1,8,12.5,0,1,0.0,3,5,0,0,6,6,1,0,2,0,0
+20190926-2100-lostangels-lions,2019-09-26 21:00:00,lions,lions-gus,4,2,7,28.5714285714286,0,0,,0,0,,3,9,12,0,1,0,1,3
+20190926-2100-lostangels-lions,2019-09-26 21:00:00,lions,lions-diego,2,1,5,20.0,0,0,,0,2,0,1,1,2,1,4,3,0,1
+20190926-2100-lostangels-lions,2019-09-26 21:00:00,lions,camdenhells-lauren,0,0,1,0.0,0,0,,0,0,,0,0,0,0,1,0,0,0
+20190926-2100-lostangels-lions,2019-09-26 21:00:00,lions,lions-telle,0,0,4,0.0,0,0,,0,0,,0,1,1,0,3,0,0,2
+20190926-2100-lostangels-lions,2019-09-26 21:00:00,lostangels,saturdays-claire,18,7,18,38.8888888888889,0,1,0.0,4,5,0,0,1,1,0,2,1,0,0
+20190926-2100-lostangels-lions,2019-09-26 21:00:00,lostangels,lostangels-carlos,16,8,12,66.6666666666667,0,0,,0,2,0,2,6,8,0,1,2,0,2
+20190926-2100-lostangels-lions,2019-09-26 21:00:00,lostangels,lostangels-rob,8,4,10,40.0,0,0,,0,2,0,2,4,6,2,3,1,1,0
+20190926-2100-lostangels-lions,2019-09-26 21:00:00,lostangels,lostangels-rolands,8,4,6,66.6666666666667,0,0,,0,1,0,5,3,8,4,0,2,3,0
+20190926-2100-lostangels-lions,2019-09-26 21:00:00,lostangels,lostangels-daria,6,1,5,20.0,1,3,33.3333333333333,3,3,1,0,1,1,2,1,2,0,0
+20190926-2100-lostangels-lions,2019-09-26 21:00:00,lostangels,lostangels-jazeps,4,2,8,25.0,0,0,,0,2,0,4,6,10,3,3,2,0,1
+20190926-2100-lostangels-lions,2019-09-26 21:00:00,lostangels,lostangels-aldis,0,0,2,0.0,0,1,0.0,0,0,,1,7,8,4,2,0,0,2
