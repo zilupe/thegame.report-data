@@ -1,7 +1,7 @@
 import collections
 import dataclasses
 import datetime as dt
-from typing import ClassVar, List, Dict
+from typing import ClassVar, List, Dict, Tuple
 
 
 @dataclasses.dataclass
@@ -16,6 +16,16 @@ class Game:
     scheduled_time: dt.datetime
     home_side_id: str
     away_side_id: str
+
+    @property
+    def team_ids(self) -> Tuple[str, str]:
+        return self.home_side_id, self.away_side_id
+
+    def opponent_of(self, team_id: str) -> str:
+        """
+        returns the id of the opponent team to the team specified by team_id
+        """
+        return self.team_ids[abs(self.team_ids.index(team_id) - 1)]
 
 
 @dataclasses.dataclass

@@ -133,9 +133,8 @@ class League:
 
                     player_id = row.pop("player")
                     team = self.teams[row["team"]]
-                    team_ids = [game.home_side_id, game.away_side_id]
-                    side_id = team_ids.index(team.id)
-                    opponent_id = team_ids[abs(side_id - 1)]
+                    side_id = game.team_ids.index(team.id)
+                    opponent_id = game.opponent_of(team.id)
 
                     if player_id in self.teams:
                         record: TeamGameRecord = row_to_record(dict(row), record_cls=TeamGameRecord)
@@ -172,6 +171,7 @@ class League:
                     game_id=game_id,
                     side_id=side_id,
                     team_id=records[0].team_id,
+                    opponent_id=self.games[game_id].opponent_of(records[0].team_id),
                 )
                 for f in GameRecord.raw_stat_fields:
                     setattr(team_record, f, sum(getattr(r, f) for r in records))
@@ -194,7 +194,7 @@ def main():
 
     team_records = list(league.get_game_team_records(input_dirs))
 
-    output_path = Path("output.csv")
+    output_path = Path("../reports/team-records.csv")
     with output_path.open("w") as f:
         writer = csv.DictWriter(f, fieldnames=team_records[0].to_dict().keys())
         writer.writeheader()
