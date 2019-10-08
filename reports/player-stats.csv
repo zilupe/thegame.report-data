@@ -88,6 +88,13 @@ game_id,side_id,team_id,opponent_id,fgm,fga,tpm,tpa,ftm,fta,pts,oreb,dreb,reb,as
 20190822-1845-lions-dropbears,1,dropbears,lions,2,3,1,1,3,4,8,1,4,5,3,5,3,0,1,dropbears-ray
 20190822-1845-lions-dropbears,1,dropbears,lions,4,7,0,0,0,2,8,2,3,5,0,4,3,1,1,rockets-paul
 20190822-1845-lions-dropbears,1,dropbears,lions,1,9,0,0,0,0,2,2,3,5,2,2,2,2,2,timekeeper-naomi
+20190822-2015-lostangels-camdenhells,0,lostangels,camdenhells,0,9,0,5,2,2,2,1,5,0,5,2,1,0,1,lostangels-aldis
+20190822-2015-lostangels-camdenhells,0,lostangels,camdenhells,2,13,0,0,0,0,4,0,1,0,1,5,0,0,0,lostangels-carlotta
+20190822-2015-lostangels-camdenhells,0,lostangels,camdenhells,2,5,1,2,0,0,5,0,0,0,0,0,1,0,0,lostangels-daria
+20190822-2015-lostangels-camdenhells,0,lostangels,camdenhells,5,13,0,2,0,0,10,4,1,0,1,3,5,1,0,lostangels-jazeps
+20190822-2015-lostangels-camdenhells,0,lostangels,camdenhells,10,15,0,0,4,4,22,2,13,0,1,3,1,0,0,lostangels-rob
+20190822-2015-lostangels-camdenhells,0,lostangels,camdenhells,2,4,0,0,0,0,4,7,9,0,4,0,2,5,2,lostangels-rolands
+20190822-2015-lostangels-camdenhells,0,lostangels,camdenhells,2,5,0,1,1,1,5,1,2,0,2,2,0,0,0,lostangels-sophie
 20190822-2100-rockets-burritos,0,rockets,burritos,0,2,0,1,0,0,0,1,0,1,0,0,1,0,3,rockets-alex
 20190822-2100-rockets-burritos,0,rockets,burritos,1,1,0,0,0,0,2,0,1,1,0,0,0,0,0,rockets-anna
 20190822-2100-rockets-burritos,0,rockets,burritos,0,8,0,2,1,2,1,2,5,7,2,4,7,0,1,rockets-janis
