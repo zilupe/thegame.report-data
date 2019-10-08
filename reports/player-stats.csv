@@ -69,6 +69,13 @@ game_id,side_id,team_id,opponent_id,fgm,fga,tpm,tpa,ftm,fta,pts,oreb,dreb,reb,as
 20190815-1930-lions-burritos,1,burritos,lions,0,8,0,5,0,0,0,1,8,0,3,0,1,1,0,burritos-stuart
 20190815-1930-lions-burritos,1,burritos,lions,5,15,0,3,1,4,11,0,3,0,1,2,3,0,0,dropbears-mary
 20190815-1930-lions-burritos,1,burritos,lions,1,2,0,0,0,0,2,1,5,0,0,0,0,0,0,lostangels-rolands
+20190815-2015-lostangels-rockets,0,lostangels,rockets,1,7,1,4,0,0,3,0,4,0,2,1,0,0,0,lostangels-aldis
+20190815-2015-lostangels-rockets,0,lostangels,rockets,5,9,0,0,0,0,10,2,2,0,3,2,2,0,1,lostangels-carlotta
+20190815-2015-lostangels-rockets,0,lostangels,rockets,1,5,1,4,0,0,3,1,1,0,4,2,1,0,0,lostangels-daria
+20190815-2015-lostangels-rockets,0,lostangels,rockets,6,14,1,1,0,2,13,1,4,0,3,4,3,2,2,lostangels-jazeps
+20190815-2015-lostangels-rockets,0,lostangels,rockets,1,3,0,0,0,0,2,2,1,0,1,0,1,0,2,lostangels-john
+20190815-2015-lostangels-rockets,0,lostangels,rockets,5,7,0,0,1,2,11,0,4,0,1,3,4,1,3,lostangels-rob
+20190815-2015-lostangels-rockets,0,lostangels,rockets,2,6,0,0,0,0,4,2,7,0,3,1,1,1,9,lostangels-rolands
 20190822-1845-lions-dropbears,0,lions,dropbears,2,3,0,0,0,0,4,1,1,2,2,1,3,0,0,kissmygrass-steph
 20190822-1845-lions-dropbears,0,lions,dropbears,1,3,0,0,0,0,2,3,2,5,0,1,5,0,1,lions-alfie
 20190822-1845-lions-dropbears,0,lions,dropbears,4,10,0,2,0,0,8,2,2,4,4,2,5,0,1,lions-diego
