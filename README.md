@@ -1,9 +1,4 @@
 
-### 2019-10-08
+# thegame.report data
 
-* Under `raw_data/allen/statastic/` added manually cleaned up Statastic CSV files
-
-### 2019-09-29
-
-* Under `games-stats/` you'll find an extract of game stats logged in the simple mode of the Stats Keyboard.
-  The format might change. This extract includes only 6 games.
+An attempt to organise, standardise and share the data of our league.
