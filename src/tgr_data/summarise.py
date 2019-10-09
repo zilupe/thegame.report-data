@@ -226,8 +226,8 @@ def main():
             player_stats.append(stats)
 
     outputs: Dict[str, List[Stats]] = {
-        "team-logs.csv": team_stats,
-        "player-logs.csv": player_stats,
+        "team_logs.csv": team_stats,
+        "player_logs.csv": player_stats,
     }
 
     for filename, stats_objects in outputs.items():
