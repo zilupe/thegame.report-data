@@ -1,11 +1,37 @@
-SELECT * FROM
+SELECT
+
+team_id,
+opponent_id,
+x_factor,
+num_games,
+avg_possessions,
+avg_defensive_eff,
+avg_offensive_eff,
+avg_pts,
+avg_opponent_pts,
+"fg%",
+"3p%",
+"ft%",
+"2p%",
+"avg_oreb",
+"avg_dreb",
+"avg_reb",
+"avg_ast",
+"avg_stl",
+"avg_tov",
+"avg_blk",
+"avg_pf"
+
+FROM
 (
 	SELECT
 
 		team_id,
 
-	    case when opponent_id in ('burritos', 'lostangels', 'dropbears', 'rockets') then 'top4'
-	    else 'bottom4' end as 'opponent_strength',
+		opponent_id,
+
+-- 	    case when opponent_id in ('burritos', 'lostangels', 'dropbears', 'rockets') then 'top4'
+-- 	    else 'bottom4' end as 'opponent_strength',
 
 	    x_factor,
 
@@ -76,11 +102,14 @@ SELECT * FROM
 
 	group by
 		team_id,
-		opponent_strength,
+		opponent_id,
+-- 		opponent_strength,
 	    x_factor
 
 ) aaa
 
--- order by aaa."avg_stl" desc;
+-- order by aaa."avg_ast" desc;
+
+where team_id = 'burritos'
 
 ;

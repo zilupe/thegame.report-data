@@ -183,6 +183,15 @@ class League:
                     setattr(team_record, f, sum(getattr(r, f) for r in records))
             else:
                 player_records = records[1:]
+
+            # if team_record.team_id == "rockets":
+            #     if any(p.player_id == "rockets-darnell" for p in player_records):
+            #         team_record.x_factor = "darnell"
+            #     else:
+            #         team_record.x_factor = "no-darnell"
+            # else:
+            #     team_record.x_factor = ""
+
             yield team_record, player_records
 
     def get_game_stats(self, input_dirs: List[Path]) -> Generator[TeamGameStats, None, None]:

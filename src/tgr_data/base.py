@@ -88,6 +88,7 @@ class PlayerGameRecord(GameRecord):
 @dataclasses.dataclass
 class TeamGameRecord(GameRecord):
     opponent_pts: int = 0
+    x_factor: str = ""
 
 
 class Stats:
