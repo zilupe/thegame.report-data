@@ -1,1 +1,3 @@
 cached-property
+pandas
+jupyterlab
