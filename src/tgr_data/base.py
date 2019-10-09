@@ -132,3 +132,31 @@ class TeamGameStats(Stats):
 
 class PlayerGameStats(Stats):
     record: PlayerGameRecord
+
+    stats_fields = (
+        "enthusiasm_rating",
+        "pir",
+    )
+
+    @property
+    def enthusiasm_rating(self) -> int:
+        return (
+            self.record.fga
+            + self.record.fta
+            + self.record.reb
+            + self.record.ast
+            + self.record.stl
+            + self.record.blk
+            + self.record.tov
+            + self.record.pf
+        )
+
+    @property
+    def pir(self) -> int:
+        return (
+            self.record.pts + self.record.reb + self.record.ast + self.record.stl + self.record.blk
+            - (self.record.fta - self.record.ftm)
+            - (self.record.fga - self.record.fgm)
+            - self.record.tov
+            - self.record.pf
+        )
