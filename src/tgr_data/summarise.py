@@ -88,6 +88,11 @@ def row_to_record(row: Dict, record_cls: Type[GameRecord] = GameRecord):
             setattr(record, v, int(r.pop(k)))
 
     assert not r, (r, record)
+
+    if record.dreb + record.oreb != record.reb:
+        assert record.reb == 0
+        record.reb = record.dreb + record.oreb
+
     return record
 
 
