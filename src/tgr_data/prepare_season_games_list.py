@@ -48,7 +48,7 @@ for game_day in season.game_days:
 
 filename = f"s{season_id}-games.csv"
 with open(filename, "w") as f:
-    csv_writer = csv.DictWriter(f, fieldnames=["id", "home_team_id", "away_team_id", "scheduled_time", "season_id"])
+    csv_writer = csv.DictWriter(f, fieldnames=["id", "scheduled_time", "home_team_id", "away_team_id", "season_id"])
     csv_writer.writeheader()
     csv_writer.writerows(rows)
 
