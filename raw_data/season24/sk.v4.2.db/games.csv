@@ -1,0 +1,13 @@
+id,home_team_id,away_team_id,scheduled_time
+20190919-1845-burritos-bbcballers,burritos,bbcballers,2019-09-19 18:45:00
+20190919-1930-rockets-camdenhells,rockets,camdenhells,2019-09-19 19:30:00
+20190919-2015-lostangels-dropbears,lostangels,dropbears,2019-09-19 20:15:00
+20190919-2100-lions-greenmachine,lions,greenmachine,2019-09-19 21:00:00
+20190926-1845-rockets-greenmachine,rockets,greenmachine,2019-09-26 18:45:00
+20190926-1930-camdenhells-bbcballers,camdenhells,bbcballers,2019-09-26 19:30:00
+20190926-2015-burritos-dropbears,burritos,dropbears,2019-09-26 20:15:00
+20190926-2100-lostangels-lions,lostangels,lions,2019-09-26 21:00:00
+20191003-1845-burritos-rockets,burritos,rockets,2019-10-03 18:45:00
+20191003-1930-lostangels-dropbears,lostangels,dropbears,2019-10-03 19:30:00
+20191003-2015-camdenhells-greenmachine,camdenhells,greenmachine,2019-10-03 20:15:00
+20191003-2100-lions-bbcballers,lions,bbcballers,2019-10-03 21:00:00
