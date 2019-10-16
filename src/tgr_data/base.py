@@ -8,6 +8,8 @@ from typing import ClassVar, List, Dict, Tuple
 class Team:
     id: str
     name: str
+    color1: str
+    color2: str
 
 
 @dataclasses.dataclass
@@ -16,6 +18,7 @@ class Game:
     scheduled_time: dt.datetime
     home_side_id: str
     away_side_id: str
+    season_id: int
 
     @property
     def team_ids(self) -> Tuple[str, str]:
