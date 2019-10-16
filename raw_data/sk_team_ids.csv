@@ -1,11 +1,11 @@
-id,name
-bbcballers,BBC Ballers
-burritos,Burritos
-camdenhells,Camden Hells
-dropbears,Dropbears
-greenmachine,Green Machine
-lions,Lions
-lostangels,Lost Angels
-rockets,Rockets
-hotshots,Hot Shots
-northlondonlions,North L Lions
+id,name,color1,color2
+bbcballers,BBC Ballers,"0.2, 0.2, 0.2, 1","1,1,1,1"
+burritos,Burritos,"0.384, 0.212, 1, 1","1,1,1,1"
+camdenhells,Camden Hells,"1.0,1.0,1.0,1.0","0.0,0.0,0.55,1.0"
+dropbears,Dropbears,"1, 0.549, 0, 1","1, 1, 1, 1"
+greenmachine,Green Machine,"0, 0.5, 0, 1","1,1,1,1"
+lions,Lions,"0.55, 0, 0, 1","1, 1, 1, 1"
+lostangels,Lost Angels,"0, 0, 0.8, 1","1.0, 0.8, 0, 1"
+rockets,Rockets,"1, 1, 1, 1","0.5, 0, 0, 1"
+hotshots,Hot Shots,"0.2, 0.2, 0.2, 1","1,1,1,1"
+northlondonlions,North L Lions,"0.2, 0.2, 0.2, 1","1,1,1,1"
