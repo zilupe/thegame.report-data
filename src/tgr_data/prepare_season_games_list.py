@@ -41,7 +41,7 @@ for game_day in season.game_days:
         rows.append({
             "id": g_id,
             "home_team_id": teams_by_id[g["home_team_id"]],
-            "away_team_id": teams_by_id[g["home_team_id"]],
+            "away_team_id": teams_by_id[g["away_team_id"]],
             "scheduled_time": g["starts_at"].strftime("%Y-%m-%d %H:%M:%S"),
             "season_id": season_id,
         })
