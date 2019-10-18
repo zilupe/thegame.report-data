@@ -1,57 +1,57 @@
-game_id,team_id,player_id,player_gender,player_name,pts,fgm,fga,fg%,3pm,3pa,3p%,ftm,fta,ft%,oreb,dreb,reb,ast,tov,stl,blk,blka,fc,fd,pir
-20191017-1845-hotshots-rockets,hotshots,hotshots-marine,f,Marine,0,0,1,0,0,0,0,0,0,0,2,2,4,0,0,0,0,0,0,1,4
-20191017-1845-hotshots-rockets,hotshots,hotshots-maliena,f,Maliena,0,0,2,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,-3
-20191017-1845-hotshots-rockets,hotshots,hotshots-keir,m,Keir,0,0,2,0,0,0,0,0,2,0,1,0,1,1,2,2,0,0,0,1,-1
-20191017-1845-hotshots-rockets,hotshots,hotshots-weronika,f,Weronika,0,0,1,0,0,0,0,0,0,0,0,2,2,3,1,0,0,0,0,3,6
-20191017-1845-hotshots-rockets,hotshots,hotshots-martin,m,Marty,7,3,8,37.5,0,0,0,1,1,100.0,1,3,4,0,3,0,0,0,1,2,4
-20191017-1845-hotshots-rockets,hotshots,hotshots-davidm,m,David M,1,0,6,0,0,2,0,1,2,50.0,0,2,2,0,1,1,0,0,2,2,-4
-20191017-1845-hotshots-rockets,hotshots,hotshots-harrison,m,Harrison38,14,3,10,30.0,2,4,50.0,6,10,60.0,1,4,5,0,6,0,1,0,5,7,5
-20191017-1845-hotshots-rockets,hotshots,hotshots-sharad,m,Sharad,0,0,1,0,0,0,0,0,0,0,0,2,2,1,3,0,0,0,1,0,-2
-20191017-1845-hotshots-rockets,hotshots,hotshots-daniel,m,Daniel,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-20191017-1845-hotshots-rockets,rockets,rockets-alex,m,AlexCast,15,7,11,63.6,0,1,0,1,2,50.0,2,3,5,1,1,1,0,0,1,1,16
-20191017-1845-hotshots-rockets,rockets,rockets-anna,f,Anna,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
-20191017-1845-hotshots-rockets,rockets,rockets-darnell,m,Darnell,17,8,15,53.3,0,1,0,1,2,50.0,3,4,7,3,0,0,0,0,1,1,19
-20191017-1845-hotshots-rockets,rockets,rockets-janis,f,Janis,9,3,9,33.3,1,4,25.0,2,2,100.0,1,2,3,7,0,2,0,1,3,2,13
-20191017-1845-hotshots-rockets,rockets,rockets-marc,m,Marc,17,6,12,50.0,1,2,50.0,4,7,57.1,4,1,5,5,0,3,0,0,2,4,23
-20191017-1845-hotshots-rockets,rockets,rockets-patricia,f,Patricia,2,1,4,25.0,0,0,0,0,0,0,0,2,2,2,1,2,0,0,4,0,0
-20191017-1845-hotshots-rockets,rockets,rockets-paul,m,Paul,6,3,6,50.0,0,0,0,0,0,0,2,1,3,1,1,2,0,0,1,1,8
-20191017-1845-hotshots-rockets,rockets,rockets-thriston,m,Thriston,2,1,6,16.7,0,0,0,0,0,0,8,8,16,1,0,0,0,0,1,0,13
-20191017-1845-hotshots-rockets,rockets,kissmygrass-steph,f,Steph-Kansas,2,1,2,50.0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,1
-20191017-1930-burritos-northlondonlions,burritos,burritos-alex,m,AlexConn,6,3,4,75.0,0,0,0,0,0,0,3,6,9,3,1,1,0,0,0,0,17
-20191017-1930-burritos-northlondonlions,burritos,burritos-armelle,f,Armelle,0,0,2,0,0,0,0,0,0,0,2,1,3,0,0,0,0,0,1,0,0
-20191017-1930-burritos-northlondonlions,burritos,burritos-suzi,f,Suzi,0,0,4,0,0,1,0,0,0,0,2,0,2,2,0,1,0,0,0,0,1
-20191017-1930-burritos-northlondonlions,burritos,burritos-sylwia,f,Sylwia,7,3,9,33.3,0,0,0,1,2,50.0,0,1,1,0,0,0,0,0,0,0,1
-20191017-1930-burritos-northlondonlions,burritos,burritos-wouter,m,Wouter,23,10,13,76.9,0,0,0,3,7,42.9,2,9,11,2,2,0,3,0,3,0,27
-20191017-1930-burritos-northlondonlions,burritos,burritos-tom,m,Tom,5,2,5,40.0,1,4,25.0,0,0,0,0,7,7,7,4,2,0,0,0,0,14
-20191017-1930-burritos-northlondonlions,burritos,dropbears-mary,f,Mary,9,4,7,57.1,0,0,0,1,1,100.0,0,3,3,0,0,1,0,0,0,0,10
-20191017-1930-burritos-northlondonlions,northlondonlions,northlondonlions-tanky,u,Tanky,13,5,15,33.3,1,5,20.0,2,2,100.0,2,5,7,2,2,0,0,0,3,0,7
-20191017-1930-burritos-northlondonlions,northlondonlions,northlondonlions-banksy,u,Banksy,5,2,5,40.0,1,1,100.0,0,0,0,1,1,2,1,1,1,0,0,0,0,5
-20191017-1930-burritos-northlondonlions,northlondonlions,northlondonlions-luke,u,Luke,3,1,11,9.1,1,5,20.0,0,0,0,2,3,5,3,2,3,0,0,3,0,-1
-20191017-1930-burritos-northlondonlions,northlondonlions,northlondonlions-kylie,u,Kylie,0,0,3,0,0,1,0,0,0,0,0,1,1,2,0,2,0,0,1,0,1
-20191017-1930-burritos-northlondonlions,northlondonlions,northlondonlions-kat,u,Kitty-Kat,2,1,4,25.0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,-2
-20191017-1930-burritos-northlondonlions,northlondonlions,northlondonlions-kia,u,Kia,6,3,9,33.3,0,0,0,0,2,0,2,1,3,0,2,1,0,0,0,0,0
-20191017-2015-camdenhells-lostangels,camdenhells,camdenhells-sean,m,Sean,8,3,6,50.0,0,0,0,2,2,100.0,0,1,1,2,1,1,0,0,1,0,7
-20191017-2015-camdenhells-lostangels,camdenhells,kissmygrass-steph,f,Steph-Kansas,2,1,4,25.0,0,1,0,0,0,0,0,3,3,0,0,0,0,0,0,0,2
-20191017-2015-camdenhells-lostangels,camdenhells,lostangels-rob,m,Rob,15,7,20,35.0,0,6,0,1,2,50.0,1,4,5,0,2,1,1,0,1,0,5
-20191017-2015-camdenhells-lostangels,camdenhells,greenmachine-ahmed,m,Ahmed,5,2,13,15.4,1,8,12.5,0,0,0,1,7,8,2,2,1,3,0,1,0,5
-20191017-2015-camdenhells-lostangels,camdenhells,camdenhells-jess,f,Jess,0,0,4,0,0,2,0,0,0,0,1,1,2,2,1,1,0,0,0,0,0
-20191017-2015-camdenhells-lostangels,camdenhells,lions-kata,f,Kata,4,2,6,33.3,0,1,0,0,0,0,1,3,4,0,0,1,0,0,0,0,5
-20191017-2015-camdenhells-lostangels,camdenhells,greenmachine-basil,m,Basil,0,0,1,0,0,0,0,0,0,0,1,1,2,2,0,0,0,0,0,0,3
-20191017-2015-camdenhells-lostangels,lostangels,lostangels-aldis,m,Aldis,17,7,20,35.0,3,11,27.3,0,0,0,2,9,11,4,3,0,0,0,2,0,14
-20191017-2015-camdenhells-lostangels,lostangels,lostangels-daria,f,Daria,9,3,9,33.3,3,9,33.3,0,0,0,0,3,3,1,0,1,0,0,0,0,8
-20191017-2015-camdenhells-lostangels,lostangels,lostangels-jazeps,m,Jazeps,14,7,14,50.0,0,2,0,0,0,0,2,2,4,5,2,0,0,0,0,0,14
-20191017-2015-camdenhells-lostangels,lostangels,lostangels-rolands,m,Rolands,10,3,7,42.9,1,2,50.0,3,3,100.0,4,11,15,4,2,1,2,0,3,0,23
-20191017-2015-camdenhells-lostangels,lostangels,lostangels-sophie,f,Sophie,6,3,6,50.0,0,2,0,0,0,0,1,3,4,3,1,0,1,0,0,0,10
-20191017-2100-greenmachine-lions,greenmachine,greenmachine-ahmed,m,Ahmed,7,2,8,25.0,1,5,20.0,2,5,40.0,1,1,2,1,3,1,0,0,1,0,-2
-20191017-2100-greenmachine-lions,greenmachine,greenmachine-alex,m,AlexGM,7,3,6,50.0,0,0,0,1,4,25.0,4,10,14,2,0,3,1,0,4,0,17
-20191017-2100-greenmachine-lions,greenmachine,greenmachine-kelli,f,Kelli,0,0,7,0,0,1,0,0,0,0,2,0,2,1,2,0,0,0,0,0,-6
-20191017-2100-greenmachine-lions,greenmachine,greenmachine-victoria,f,Victoria,2,1,1,100.0,0,0,0,0,0,0,2,2,4,0,1,0,0,0,0,0,5
-20191017-2100-greenmachine-lions,greenmachine,greenmachine-basil,m,Basil,11,4,11,36.4,0,1,0,3,6,50.0,4,2,6,0,3,2,0,0,1,0,5
-20191017-2100-greenmachine-lions,greenmachine,greenmachine-jayd,m,Jayd,7,3,10,30.0,1,5,20.0,0,0,0,0,1,1,0,0,0,0,0,0,0,1
-20191017-2100-greenmachine-lions,greenmachine,kissmygrass-steph,f,Steph-Kansas,0,0,1,0,0,1,0,0,0,0,0,2,2,0,0,0,0,0,0,0,1
-20191017-2100-greenmachine-lions,lions,lions-diego,m,Diego,4,2,4,50.0,0,1,0,0,0,0,2,8,10,5,4,2,0,0,0,0,15
-20191017-2100-greenmachine-lions,lions,lions-gus,m,Gus,10,4,13,30.8,0,0,0,2,2,100.0,10,1,11,1,1,0,0,0,4,0,8
-20191017-2100-greenmachine-lions,lions,lions-kata,f,Kata,15,6,22,27.3,1,4,25.0,2,5,40.0,2,0,2,0,1,2,0,0,2,0,-3
-20191017-2100-greenmachine-lions,lions,lions-telle,f,Telle,2,0,2,0,0,0,0,2,2,100.0,1,0,1,1,2,0,0,0,0,0,0
-20191017-2100-greenmachine-lions,lions,lions-rashid,m,Rashid,8,3,8,37.5,2,7,28.6,0,0,0,2,7,9,1,2,0,0,0,1,0,10
-20191017-2100-greenmachine-lions,lions,lions-tony,m,Tony,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+game_id,team_id,team_name,player_id,player_gender,player_name,pts,fgm,fga,fg%,3pm,3pa,3p%,ftm,fta,ft%,oreb,dreb,reb,ast,tov,stl,blk,blka,fc,fd,pir
+20191017-1845-hotshots-rockets,hotshots,Hot Shots,hotshots-marine,f,Marine,0,0,1,0,0,0,0,0,0,0,2,2,4,0,0,0,0,0,0,1,4
+20191017-1845-hotshots-rockets,hotshots,Hot Shots,hotshots-maliena,f,Maliena,0,0,2,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,-3
+20191017-1845-hotshots-rockets,hotshots,Hot Shots,hotshots-keir,m,Keir,0,0,2,0,0,0,0,0,2,0,1,0,1,1,2,2,0,0,0,1,-1
+20191017-1845-hotshots-rockets,hotshots,Hot Shots,hotshots-weronika,f,Weronika,0,0,1,0,0,0,0,0,0,0,0,2,2,3,1,0,0,0,0,3,6
+20191017-1845-hotshots-rockets,hotshots,Hot Shots,hotshots-martin,m,Marty,7,3,8,37.5,0,0,0,1,1,100.0,1,3,4,0,3,0,0,0,1,2,4
+20191017-1845-hotshots-rockets,hotshots,Hot Shots,hotshots-davidm,m,David M,1,0,6,0,0,2,0,1,2,50.0,0,2,2,0,1,1,0,0,2,2,-4
+20191017-1845-hotshots-rockets,hotshots,Hot Shots,hotshots-harrison,m,Harrison38,14,3,10,30.0,2,4,50.0,6,10,60.0,1,4,5,0,6,0,1,0,5,7,5
+20191017-1845-hotshots-rockets,hotshots,Hot Shots,hotshots-sharad,m,Sharad,0,0,1,0,0,0,0,0,0,0,0,2,2,1,3,0,0,0,1,0,-2
+20191017-1845-hotshots-rockets,hotshots,Hot Shots,hotshots-daniel,m,Daniel,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+20191017-1845-hotshots-rockets,rockets,Rockets,rockets-alex,m,AlexCast,15,7,11,63.6,0,1,0,1,2,50.0,2,3,5,1,1,1,0,0,1,1,16
+20191017-1845-hotshots-rockets,rockets,Rockets,rockets-anna,f,Anna,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
+20191017-1845-hotshots-rockets,rockets,Rockets,rockets-darnell,m,Darnell,17,8,15,53.3,0,1,0,1,2,50.0,3,4,7,3,0,0,0,0,1,1,19
+20191017-1845-hotshots-rockets,rockets,Rockets,rockets-janis,f,Janis,9,3,9,33.3,1,4,25.0,2,2,100.0,1,2,3,7,0,2,0,1,3,2,13
+20191017-1845-hotshots-rockets,rockets,Rockets,rockets-marc,m,Marc,17,6,12,50.0,1,2,50.0,4,7,57.1,4,1,5,5,0,3,0,0,2,4,23
+20191017-1845-hotshots-rockets,rockets,Rockets,rockets-patricia,f,Patricia,2,1,4,25.0,0,0,0,0,0,0,0,2,2,2,1,2,0,0,4,0,0
+20191017-1845-hotshots-rockets,rockets,Rockets,rockets-paul,m,Paul,6,3,6,50.0,0,0,0,0,0,0,2,1,3,1,1,2,0,0,1,1,8
+20191017-1845-hotshots-rockets,rockets,Rockets,rockets-thriston,m,Thriston,2,1,6,16.7,0,0,0,0,0,0,8,8,16,1,0,0,0,0,1,0,13
+20191017-1845-hotshots-rockets,rockets,Rockets,kissmygrass-steph,f,Steph-Kansas,2,1,2,50.0,0,1,0,0,0,0,0,1,1,0,0,0,0,0,1,0,1
+20191017-1930-burritos-northlondonlions,burritos,Burritos,burritos-alex,m,AlexConn,6,3,4,75.0,0,0,0,0,0,0,3,6,9,3,1,1,0,0,0,0,17
+20191017-1930-burritos-northlondonlions,burritos,Burritos,burritos-armelle,f,Armelle,0,0,2,0,0,0,0,0,0,0,2,1,3,0,0,0,0,0,1,0,0
+20191017-1930-burritos-northlondonlions,burritos,Burritos,burritos-suzi,f,Suzi,0,0,4,0,0,1,0,0,0,0,2,0,2,2,0,1,0,0,0,0,1
+20191017-1930-burritos-northlondonlions,burritos,Burritos,burritos-sylwia,f,Sylwia,7,3,9,33.3,0,0,0,1,2,50.0,0,1,1,0,0,0,0,0,0,0,1
+20191017-1930-burritos-northlondonlions,burritos,Burritos,burritos-wouter,m,Wouter,23,10,13,76.9,0,0,0,3,7,42.9,2,9,11,2,2,0,3,0,3,0,27
+20191017-1930-burritos-northlondonlions,burritos,Burritos,burritos-tom,m,Tom,5,2,5,40.0,1,4,25.0,0,0,0,0,7,7,7,4,2,0,0,0,0,14
+20191017-1930-burritos-northlondonlions,burritos,Burritos,dropbears-mary,f,Mary,9,4,7,57.1,0,0,0,1,1,100.0,0,3,3,0,0,1,0,0,0,0,10
+20191017-1930-burritos-northlondonlions,northlondonlions,North L Lions,northlondonlions-tanky,u,Tanky,13,5,15,33.3,1,5,20.0,2,2,100.0,2,5,7,2,2,0,0,0,3,0,7
+20191017-1930-burritos-northlondonlions,northlondonlions,North L Lions,northlondonlions-banksy,u,Banksy,5,2,5,40.0,1,1,100.0,0,0,0,1,1,2,1,1,1,0,0,0,0,5
+20191017-1930-burritos-northlondonlions,northlondonlions,North L Lions,northlondonlions-luke,u,Luke,3,1,11,9.1,1,5,20.0,0,0,0,2,3,5,3,2,3,0,0,3,0,-1
+20191017-1930-burritos-northlondonlions,northlondonlions,North L Lions,northlondonlions-kylie,u,Kylie,0,0,3,0,0,1,0,0,0,0,0,1,1,2,0,2,0,0,1,0,1
+20191017-1930-burritos-northlondonlions,northlondonlions,North L Lions,northlondonlions-kat,u,Kitty-Kat,2,1,4,25.0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,1,0,-2
+20191017-1930-burritos-northlondonlions,northlondonlions,North L Lions,northlondonlions-kia,u,Kia,6,3,9,33.3,0,0,0,0,2,0,2,1,3,0,2,1,0,0,0,0,0
+20191017-2015-camdenhells-lostangels,camdenhells,Camden Hells,camdenhells-sean,m,Sean,8,3,6,50.0,0,0,0,2,2,100.0,0,1,1,2,1,1,0,0,1,0,7
+20191017-2015-camdenhells-lostangels,camdenhells,Camden Hells,kissmygrass-steph,f,Steph-Kansas,2,1,4,25.0,0,1,0,0,0,0,0,3,3,0,0,0,0,0,0,0,2
+20191017-2015-camdenhells-lostangels,camdenhells,Camden Hells,lostangels-rob,m,Rob,15,7,20,35.0,0,6,0,1,2,50.0,1,4,5,0,2,1,1,0,1,0,5
+20191017-2015-camdenhells-lostangels,camdenhells,Camden Hells,greenmachine-ahmed,m,Ahmed,5,2,13,15.4,1,8,12.5,0,0,0,1,7,8,2,2,1,3,0,1,0,5
+20191017-2015-camdenhells-lostangels,camdenhells,Camden Hells,camdenhells-jess,f,Jess,0,0,4,0,0,2,0,0,0,0,1,1,2,2,1,1,0,0,0,0,0
+20191017-2015-camdenhells-lostangels,camdenhells,Camden Hells,lions-kata,f,Kata,4,2,6,33.3,0,1,0,0,0,0,1,3,4,0,0,1,0,0,0,0,5
+20191017-2015-camdenhells-lostangels,camdenhells,Camden Hells,greenmachine-basil,m,Basil,0,0,1,0,0,0,0,0,0,0,1,1,2,2,0,0,0,0,0,0,3
+20191017-2015-camdenhells-lostangels,lostangels,Lost Angels,lostangels-aldis,m,Aldis,17,7,20,35.0,3,11,27.3,0,0,0,2,9,11,4,3,0,0,0,2,0,14
+20191017-2015-camdenhells-lostangels,lostangels,Lost Angels,lostangels-daria,f,Daria,9,3,9,33.3,3,9,33.3,0,0,0,0,3,3,1,0,1,0,0,0,0,8
+20191017-2015-camdenhells-lostangels,lostangels,Lost Angels,lostangels-jazeps,m,Jazeps,14,7,14,50.0,0,2,0,0,0,0,2,2,4,5,2,0,0,0,0,0,14
+20191017-2015-camdenhells-lostangels,lostangels,Lost Angels,lostangels-rolands,m,Rolands,10,3,7,42.9,1,2,50.0,3,3,100.0,4,11,15,4,2,1,2,0,3,0,23
+20191017-2015-camdenhells-lostangels,lostangels,Lost Angels,lostangels-sophie,f,Sophie,6,3,6,50.0,0,2,0,0,0,0,1,3,4,3,1,0,1,0,0,0,10
+20191017-2100-greenmachine-lions,greenmachine,Green Machine,greenmachine-ahmed,m,Ahmed,7,2,8,25.0,1,5,20.0,2,5,40.0,1,1,2,1,3,1,0,0,1,0,-2
+20191017-2100-greenmachine-lions,greenmachine,Green Machine,greenmachine-alex,m,AlexGM,7,3,6,50.0,0,0,0,1,4,25.0,4,10,14,2,0,3,1,0,4,0,17
+20191017-2100-greenmachine-lions,greenmachine,Green Machine,greenmachine-kelli,f,Kelli,0,0,7,0,0,1,0,0,0,0,2,0,2,1,2,0,0,0,0,0,-6
+20191017-2100-greenmachine-lions,greenmachine,Green Machine,greenmachine-victoria,f,Victoria,2,1,1,100.0,0,0,0,0,0,0,2,2,4,0,1,0,0,0,0,0,5
+20191017-2100-greenmachine-lions,greenmachine,Green Machine,greenmachine-basil,m,Basil,11,4,11,36.4,0,1,0,3,6,50.0,4,2,6,0,3,2,0,0,1,0,5
+20191017-2100-greenmachine-lions,greenmachine,Green Machine,greenmachine-jayd,m,Jayd,7,3,10,30.0,1,5,20.0,0,0,0,0,1,1,0,0,0,0,0,0,0,1
+20191017-2100-greenmachine-lions,greenmachine,Green Machine,kissmygrass-steph,f,Steph-Kansas,0,0,1,0,0,1,0,0,0,0,0,2,2,0,0,0,0,0,0,0,1
+20191017-2100-greenmachine-lions,lions,Lions,lions-diego,m,Diego,4,2,4,50.0,0,1,0,0,0,0,2,8,10,5,4,2,0,0,0,0,15
+20191017-2100-greenmachine-lions,lions,Lions,lions-gus,m,Gus,10,4,13,30.8,0,0,0,2,2,100.0,10,1,11,1,1,0,0,0,4,0,8
+20191017-2100-greenmachine-lions,lions,Lions,lions-kata,f,Kata,15,6,22,27.3,1,4,25.0,2,5,40.0,2,0,2,0,1,2,0,0,2,0,-3
+20191017-2100-greenmachine-lions,lions,Lions,lions-telle,f,Telle,2,0,2,0,0,0,0,2,2,100.0,1,0,1,1,2,0,0,0,0,0,0
+20191017-2100-greenmachine-lions,lions,Lions,lions-rashid,m,Rashid,8,3,8,37.5,2,7,28.6,0,0,0,2,7,9,1,2,0,0,0,1,0,10
+20191017-2100-greenmachine-lions,lions,Lions,lions-tony,m,Tony,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
