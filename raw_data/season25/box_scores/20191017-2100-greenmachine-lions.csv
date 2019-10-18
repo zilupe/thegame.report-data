@@ -1,0 +1,16 @@
+team_name,player_id,player_gender,player_name,pts,fgm,fga,fg%,3pm,3pa,3p%,ftm,fta,ft%,oreb,dreb,reb,ast,tov,stl,blk,blka,fc,fd,pir
+Green Machine,,,,34,13,44,29.5,2,13,15.4,6,15,40.0,13,18,31,4,9,6,1,0,6,0,21
+Green Machine,greenmachine-ahmed,m,Ahmed,7,2,8,25.0,1,5,20.0,2,5,40.0,1,1,2,1,3,1,0,0,1,0,-2
+Green Machine,greenmachine-alex,m,AlexGM,7,3,6,50.0,0,0,0,1,4,25.0,4,10,14,2,0,3,1,0,4,0,17
+Green Machine,greenmachine-kelli,f,Kelli,0,0,7,0,0,1,0,0,0,0,2,0,2,1,2,0,0,0,0,0,-6
+Green Machine,greenmachine-victoria,f,Victoria,2,1,1,100.0,0,0,0,0,0,0,2,2,4,0,1,0,0,0,0,0,5
+Green Machine,greenmachine-basil,m,Basil,11,4,11,36.4,0,1,0,3,6,50.0,4,2,6,0,3,2,0,0,1,0,5
+Green Machine,greenmachine-jayd,m,Jayd,7,3,10,30.0,1,5,20.0,0,0,0,0,1,1,0,0,0,0,0,0,0,1
+Green Machine,kissmygrass-steph,f,Steph-Kansas,0,0,1,0,0,1,0,0,0,0,0,2,2,0,0,0,0,0,0,0,1
+Lions,,,,39,15,49,30.6,3,12,25.0,6,9,66.7,17,16,33,8,10,4,0,0,7,0,30
+Lions,lions-diego,m,Diego,4,2,4,50.0,0,1,0,0,0,0,2,8,10,5,4,2,0,0,0,0,15
+Lions,lions-gus,m,Gus,10,4,13,30.8,0,0,0,2,2,100.0,10,1,11,1,1,0,0,0,4,0,8
+Lions,lions-kata,f,Kata,15,6,22,27.3,1,4,25.0,2,5,40.0,2,0,2,0,1,2,0,0,2,0,-3
+Lions,lions-telle,f,Telle,2,0,2,0,0,0,0,2,2,100.0,1,0,1,1,2,0,0,0,0,0,0
+Lions,lions-rashid,m,Rashid,8,3,8,37.5,2,7,28.6,0,0,0,2,7,9,1,2,0,0,0,1,0,10
+Lions,lions-tony,m,Tony,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0
