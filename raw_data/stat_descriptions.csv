@@ -1,0 +1,23 @@
+﻿abbreviation,description,long_description
+PTS,Points,
+FGM,Field goals made,Includes both 2 point and 3 point shots made
+FGA,Field goals attempted,Includes both 2 point and 3 point shot attempts
+FG%,Field goal percentage,Field goals made over field goals attempted
+3PM,Three point shots made,
+3PA,Three point shots attempted,
+3P%,Three point shot percentage,
+FTM,Free throws made,
+FTA,Free throws attempted,
+FT%,Free throw percentage,Free throws made over free throws attempted
+OREB,Offensive rebounds,
+DREB,Defensive rebounds,
+REB,Total rebounds,Sum of offensive and defensive rebounds
+AST,Assists,
+TOV,Turnovers,
+STL,Steals,
+BLK,Blocks,
+BLKA,Blocks against,Not available per player in games tracked in simple mode
+FC,Fouls committed,
+FD,Fouls drawn,Not available per player in games tracked in simple mode
+PIR,Performance index ratio,Standard European measurement of player's efficiency. The calculation includes numbers which are not always available in simple mode so cannot be compared between simple and tracking mode.
+OPP_*,Opposition's numbers,
