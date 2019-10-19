@@ -19,7 +19,7 @@ id,game_id,player_id,player_order,side_id
 20190919-1930-rockets-camdenhells-0-rockets-patricia,20190919-1930-rockets-camdenhells,rockets-patricia,100,0
 20190919-1930-rockets-camdenhells-0-rockets-paul,20190919-1930-rockets-camdenhells,rockets-paul,100,0
 20190919-1930-rockets-camdenhells-0-rockets-thriston,20190919-1930-rockets-camdenhells,rockets-thriston,100,0
-20190919-1930-rockets-camdenhells-1-camdenhells-aimee,20190919-1930-rockets-camdenhells,camdenhells-aimee,100,1
+20190919-1930-rockets-camdenhells-1-camdenhells-amy,20190919-1930-rockets-camdenhells,camdenhells-amy,100,1
 20190919-1930-rockets-camdenhells-1-camdenhells-davidgalindo,20190919-1930-rockets-camdenhells,camdenhells-davidgalindo,100,1
 20190919-1930-rockets-camdenhells-1-camdenhells-lauren,20190919-1930-rockets-camdenhells,camdenhells-lauren,100,1
 20190919-1930-rockets-camdenhells-1-camdenhells-levent,20190919-1930-rockets-camdenhells,camdenhells-levent,100,1
@@ -56,7 +56,7 @@ id,game_id,player_id,player_order,side_id
 20190919-2100-lions-greenmachine-1-greenmachine-iestyn,20190919-2100-lions-greenmachine,greenmachine-iestyn,100,1
 20190919-2100-lions-greenmachine-1-greenmachine-marina,20190919-2100-lions-greenmachine,greenmachine-marina,100,1
 20190919-2100-lions-greenmachine-1-greenmachine-victoria,20190919-2100-lions-greenmachine,greenmachine-victoria,100,1
-20190926-1845-rockets-greenmachine-0-camdenhells-aimee,20190926-1845-rockets-greenmachine,camdenhells-aimee,100,0
+20190926-1845-rockets-greenmachine-0-camdenhells-amy,20190926-1845-rockets-greenmachine,camdenhells-amy,100,0
 20190926-1845-rockets-greenmachine-0-rockets-alex,20190926-1845-rockets-greenmachine,rockets-alex,100,0
 20190926-1845-rockets-greenmachine-0-rockets-anna,20190926-1845-rockets-greenmachine,rockets-anna,100,0
 20190926-1845-rockets-greenmachine-0-rockets-janis,20190926-1845-rockets-greenmachine,rockets-janis,100,0
@@ -72,7 +72,7 @@ id,game_id,player_id,player_order,side_id
 20190926-1845-rockets-greenmachine-1-greenmachine-marina,20190926-1845-rockets-greenmachine,greenmachine-marina,100,1
 20190926-1845-rockets-greenmachine-1-greenmachine-sergio,20190926-1845-rockets-greenmachine,greenmachine-sergio,100,1
 20190926-1845-rockets-greenmachine-1-greenmachine-victoria,20190926-1845-rockets-greenmachine,greenmachine-victoria,100,1
-20190926-1930-camdenhells-bbcballers-0-camdenhells-aimee,20190926-1930-camdenhells-bbcballers,camdenhells-aimee,100,0
+20190926-1930-camdenhells-bbcballers-0-camdenhells-amy,20190926-1930-camdenhells-bbcballers,camdenhells-amy,100,0
 20190926-1930-camdenhells-bbcballers-0-camdenhells-davidgalindo,20190926-1930-camdenhells-bbcballers,camdenhells-davidgalindo,100,0
 20190926-1930-camdenhells-bbcballers-0-camdenhells-lauren,20190926-1930-camdenhells-bbcballers,camdenhells-lauren,100,0
 20190926-1930-camdenhells-bbcballers-0-camdenhells-levent,20190926-1930-camdenhells-bbcballers,camdenhells-levent,100,0
@@ -141,7 +141,7 @@ id,game_id,player_id,player_order,side_id
 20191003-1930-lostangels-dropbears-1-dropbears-mary,20191003-1930-lostangels-dropbears,dropbears-mary,0,1
 20191003-1930-lostangels-dropbears-1-dropbears-p2,20191003-1930-lostangels-dropbears,dropbears-p2,0,1
 20191003-1930-lostangels-dropbears-1-dropbears-ray,20191003-1930-lostangels-dropbears,dropbears-ray,0,1
-20191003-2015-camdenhells-greenmachine-0-camdenhells-aimee,20191003-2015-camdenhells-greenmachine,camdenhells-aimee,0,0
+20191003-2015-camdenhells-greenmachine-0-camdenhells-amy,20191003-2015-camdenhells-greenmachine,camdenhells-amy,0,0
 20191003-2015-camdenhells-greenmachine-0-camdenhells-davidgalindo,20191003-2015-camdenhells-greenmachine,camdenhells-davidgalindo,0,0
 20191003-2015-camdenhells-greenmachine-0-camdenhells-lauren,20191003-2015-camdenhells-greenmachine,camdenhells-lauren,0,0
 20191003-2015-camdenhells-greenmachine-0-camdenhells-levent,20191003-2015-camdenhells-greenmachine,camdenhells-levent,0,0

@@ -204,7 +204,7 @@ game_id,side_id,team_id,opponent_id,fgm,fga,tpm,tpa,ftm,fta,pts,oreb,dreb,reb,as
 20190919-2100-lions-greemachine,1,greenmachine,lions,2,5,0,0,0,0,4,1,1,2,1,1,6,0,0,greenmachine-andris,15,-1
 20190919-2100-lions-greemachine,1,greenmachine,lions,6,12,1,2,0,2,13,0,7,7,1,0,2,1,4,greenmachine-iestyn,29,8
 20190919-2100-lions-greemachine,1,greenmachine,lions,0,3,0,0,0,0,0,1,1,2,1,2,1,0,1,greenmachine-marina,10,0
-20190926-1845-rockets-greenmachine,0,rockets,greenmachine,0,1,0,0,0,0,0,0,0,0,1,2,1,0,0,camdenhells-aimee,5,1
+20190926-1845-rockets-greenmachine,0,rockets,greenmachine,0,1,0,0,0,0,0,0,0,0,1,2,1,0,0,camdenhells-amy,5,1
 20190926-1845-rockets-greenmachine,0,rockets,greenmachine,3,5,1,1,0,2,7,1,4,5,1,2,0,0,4,rockets-alex,19,7
 20190926-1845-rockets-greenmachine,0,rockets,greenmachine,3,8,0,0,0,0,6,0,1,1,0,2,5,0,1,rockets-anna,17,-2
 20190926-1845-rockets-greenmachine,0,rockets,greenmachine,2,10,0,0,0,0,4,4,2,6,4,7,5,0,1,rockets-janis,33,7
@@ -218,7 +218,7 @@ game_id,side_id,team_id,opponent_id,fgm,fga,tpm,tpa,ftm,fta,pts,oreb,dreb,reb,as
 20190926-1845-rockets-greenmachine,1,greenmachine,rockets,0,2,0,0,0,0,0,0,1,1,0,0,5,0,0,greenmachine-marina,8,-6
 20190926-1845-rockets-greenmachine,1,greenmachine,rockets,1,2,0,1,0,3,2,1,0,1,1,4,8,0,0,greenmachine-sergio,19,-4
 20190926-1845-rockets-greenmachine,1,greenmachine,rockets,0,2,0,0,0,0,0,0,0,0,0,1,3,0,0,greenmachine-victoria,6,-4
-20190926-1930-camdenhells-bbcballers,0,camdenhells,bbcballers,2,4,0,0,0,0,4,1,1,2,0,0,1,0,1,camdenhells-aimee,8,2
+20190926-1930-camdenhells-bbcballers,0,camdenhells,bbcballers,2,4,0,0,0,0,4,1,1,2,0,0,1,0,1,camdenhells-amy,8,2
 20190926-1930-camdenhells-bbcballers,0,camdenhells,bbcballers,2,9,0,1,1,2,5,4,7,11,3,2,3,1,0,camdenhells-davidgalindo,31,11
 20190926-1930-camdenhells-bbcballers,0,camdenhells,bbcballers,1,7,0,0,0,0,2,0,2,2,1,0,0,0,2,camdenhells-lauren,12,-3
 20190926-1930-camdenhells-bbcballers,0,camdenhells,bbcballers,6,15,1,4,1,2,14,1,1,2,3,2,5,0,1,camdenhells-levent,30,5
