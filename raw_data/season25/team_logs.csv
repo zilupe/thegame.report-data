@@ -7,3 +7,9 @@ game_id,team_id,team_name,num_players,opp_team_id,opp_team_name,opp_num_players,
 20191017-2015-camdenhells-lostangels,lostangels,Lost Angels,5,camdenhells,Camden Hells,7,w,34,56,23,56,41.1,7,26,26.9,3,3,100.0,9,28,37,17,8,2,3,0,5,0,69
 20191017-2100-greenmachine-lions,greenmachine,Green Machine,7,lions,Lions,6,d,39,34,13,44,29.5,2,13,15.4,6,15,40.0,13,18,31,4,9,6,1,0,6,0,21
 20191017-2100-greenmachine-lions,lions,Lions,6,greenmachine,Green Machine,7,w,34,39,15,49,30.6,3,12,25.0,6,9,66.7,17,16,33,8,10,4,0,0,7,0,30
+20191024-1845-lions-lostangels,lions,Lions,7,lostangels,Lost Angels,5,d,61,33,14,62,22.6,4,22,18.2,1,6,16.7,10,21,31,8,10,9,0,2,6,4,14
+20191024-1845-lions-lostangels,lostangels,Lost Angels,5,lions,Lions,7,w,33,61,29,59,49.2,0,7,0,3,5,60.0,9,41,50,17,14,6,2,0,4,6,92
+20191024-1930-greenmachine-northlondonlions,greenmachine,Green Machine,8,northlondonlions,North L Lions,7,d,57,42,17,46,37.0,2,10,20.0,6,10,60.0,9,25,34,15,16,4,0,1,8,11,48
+20191024-1930-greenmachine-northlondonlions,northlondonlions,North L Lions,7,greenmachine,Green Machine,8,w,42,57,24,61,39.3,6,27,22.2,3,5,60.0,13,20,33,13,9,10,1,0,11,8,63
+20191024-2015-camdenhells-rockets,camdenhells,Camden Hells,7,rockets,Rockets,8,d,49,29,11,31,35.5,1,7,14.3,6,15,40.0,4,19,23,7,20,5,1,0,14,16,18
+20191024-2015-camdenhells-rockets,rockets,Rockets,8,camdenhells,Camden Hells,7,w,29,49,19,45,42.2,4,8,50.0,7,14,50.0,11,19,30,11,13,16,0,1,16,14,57
