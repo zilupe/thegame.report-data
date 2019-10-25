@@ -1,4 +1,5 @@
 ﻿abbreviation,description,long_description
+GP,Games played,
 PTS,Points,
 FGM,Field goals made,Includes both 2 point and 3 point shots made
 FGA,Field goals attempted,Includes both 2 point and 3 point shot attempts
