@@ -21,4 +21,6 @@ BLKA,Blocks against,Not available per player in games tracked in simple mode
 FC,Fouls committed,
 FD,Fouls drawn,Not available per player in games tracked in simple mode
 PIR,Performance index ratio,Standard European measurement of player's efficiency. The calculation includes numbers which are not always available in simple mode so cannot be compared between simple and tracking mode.
++/-,Plus/Minus reflects the difference between points scored and conceded by the team while the player was on court
+MIN,Minutes played
 OPP_*,Opposition's numbers,
