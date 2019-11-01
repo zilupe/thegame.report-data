@@ -1,20 +1,18 @@
-team_name,player_id,player_gender,player_name,pts,fgm,fga,fg%,3pm,3pa,3p%,ftm,fta,ft%,oreb,dreb,reb,ast,tov,stl,blk,blka,fc,fd,pir,+/-,min
-Green Machine,,,,27,11,46,23.9,4,16,25.0,1,3,33.3,10,26,36,6,23,7,1,4,8,4,9,,
-Green Machine,greenmachine-ahmed,m,Ahmed,11,4,9,44.4,3,6,50.0,0,2,0,2,4,6,0,4,2,1,0,1,1,9,-3,18:35
-Green Machine,greenmachine-alex,m,AlexGM,5,2,10,20.0,0,1,0,1,1,100.0,4,9,13,0,8,2,0,2,3,1,0,-18,25:44
-Green Machine,greenmachine-allison,f,Allison,2,1,3,33.3,0,0,0,0,0,0,0,1,1,0,3,0,0,0,0,0,-2,-17,18:49
-Green Machine,greenmachine-david,m,David,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,00:00
-Green Machine,greenmachine-marina,f,Marina,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,00:00
-Green Machine,greenmachine-victoria,f,Victoria,0,0,2,0,0,0,0,0,0,0,1,1,2,0,2,1,0,0,0,0,-1,-13,21:32
-Green Machine,greenmachine-basel,m,Basel,5,2,7,28.6,1,1,100.0,0,0,0,1,1,2,1,4,0,0,0,1,2,0,-22,31:20
-Green Machine,greenmachine-jayd,m,Jayd,2,1,11,9.1,0,5,0,0,0,0,0,4,4,4,2,2,0,1,1,0,-2,-17,26:20
-Green Machine,saturdays-jo,f,Jo,2,1,4,25.0,0,3,0,0,0,0,0,2,2,1,0,0,0,1,1,0,0,-10,27:29
-Burritos,,,,47,19,54,35.2,2,18,11.1,7,13,53.8,13,24,37,12,12,16,4,1,4,8,66,,
-Burritos,burritos-alex,m,AlexConn,14,7,13,53.8,0,2,0,0,0,0,5,4,9,1,2,4,1,0,1,1,21,18,24:29
-Burritos,burritos-allen,m,Allen,0,0,4,0,0,2,0,0,0,0,2,3,5,0,1,1,0,0,1,0,0,10,10:22
-Burritos,burritos-stuart,m,Stuart,4,1,10,10.0,0,7,0,2,3,66.7,1,6,7,2,1,3,1,1,0,2,7,9,21:21
-Burritos,burritos-suzi,f,Suzi,4,2,5,40.0,0,1,0,0,0,0,0,0,0,1,1,2,0,0,0,0,3,8,17:12
-Burritos,burritos-sylwia,f,Sylwia,4,2,6,33.3,0,0,0,0,0,0,0,1,1,1,0,2,0,0,0,0,4,18,29:00
-Burritos,burritos-tom,m,Tom,0,0,2,0,0,1,0,0,0,0,2,6,8,3,3,2,0,0,0,0,8,13,19:52
-Burritos,dropbears-mary,f,Mary 3P,7,2,8,25.0,2,4,50.0,1,2,50.0,0,0,0,1,1,0,0,0,1,1,0,14,21:45
-Burritos,burritos-wouter,m,Wouter,14,5,6,83.3,0,1,0,4,8,50.0,1,3,4,3,3,2,2,0,1,4,20,10,25:49
+team_name,player_id,player_gender,player_name,pts,fgm,fga,fg%,3pm,3pa,3p%,ftm,fta,ft%,oreb,dreb,reb,ast,tov,stl,blk,blka,fc,fd,pir,+/-,min,reb +/-,ast +/-,stl +/-,tov +/-,f +/-
+Green Machine,,,,27,11,46,23.9,4,16,25.0,1,3,33.3,10,26,36,6,23,7,1,4,8,4,9,,,,,,,
+Green Machine,greenmachine-ahmed,m,Ahmed,11,4,9,44.4,3,6,50.0,0,2,0,2,4,6,0,4,2,1,0,1,1,9,-3,18:35,-3,-5,-4,3,2
+Green Machine,greenmachine-alex,m,AlexGM,5,2,10,20.0,0,1,0,1,1,100.0,4,9,13,0,8,2,0,2,3,1,0,-18,25:44,0,-5,-9,10,1
+Green Machine,greenmachine-allison,f,Allison,2,1,3,33.3,0,0,0,0,0,0,0,1,1,0,3,0,0,0,0,0,-2,-17,18:49,-1,-1,-7,9,1
+Green Machine,greenmachine-victoria,f,Victoria,0,0,2,0,0,0,0,0,0,0,1,1,2,0,2,1,0,0,0,0,-1,-13,21:32,-4,-6,-6,6,1
+Green Machine,greenmachine-basel,m,Basel,5,2,7,28.6,1,1,100.0,0,0,0,1,1,2,1,4,0,0,0,1,2,0,-22,31:20,-6,-6,-8,11,3
+Green Machine,greenmachine-jayd,m,Jayd,2,1,11,9.1,0,5,0,0,0,0,0,4,4,4,2,2,0,1,1,0,-2,-17,26:20,-3,-2,-6,9,3
+Green Machine,saturdays-jo,f,Jo,2,1,4,25.0,0,3,0,0,0,0,0,2,2,1,0,0,0,1,1,0,0,-10,27:29,-3,-5,-5,7,4
+Burritos,,,,47,19,54,35.2,2,18,11.1,7,13,53.8,13,24,37,12,12,16,4,1,4,8,66,,,,,,,
+Burritos,burritos-alex,m,AlexConn,14,7,13,53.8,0,2,0,0,0,0,5,4,9,1,2,4,1,0,1,1,21,18,24:29,3,5,6,-9,-1
+Burritos,burritos-allen,m,Allen,0,0,4,0,0,2,0,0,0,0,2,3,5,0,1,1,0,0,1,0,0,10,10:22,-3,1,5,-8,0
+Burritos,burritos-stuart,m,Stuart,4,1,10,10.0,0,7,0,2,3,66.7,1,6,7,2,1,3,1,1,0,2,7,9,21:21,2,4,6,-9,-4
+Burritos,burritos-suzi,f,Suzi,4,2,5,40.0,0,1,0,0,0,0,0,0,0,1,1,2,0,0,0,0,3,8,17:12,3,2,5,-8,-1
+Burritos,burritos-sylwia,f,Sylwia,4,2,6,33.3,0,0,0,0,0,0,0,1,1,1,0,2,0,0,0,0,4,18,29:00,2,6,8,-10,-2
+Burritos,burritos-tom,m,Tom,0,0,2,0,0,1,0,0,0,0,2,6,8,3,3,2,0,0,0,0,8,13,19:52,3,3,6,-4,0
+Burritos,dropbears-mary,f,Mary,7,2,8,25.0,2,4,50.0,1,2,50.0,0,0,0,1,1,0,0,0,1,1,0,14,21:45,3,4,5,-4,-3
+Burritos,burritos-wouter,m,Wouter,14,5,6,83.3,0,1,0,4,8,50.0,1,3,4,3,3,2,2,0,1,4,20,10,25:49,7,5,4,-3,-4
