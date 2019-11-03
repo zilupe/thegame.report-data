@@ -1,3 +1,4 @@
 cached-property
-pandas
 jupyterlab
+pandas
+seaborn
