@@ -1,6 +1,4 @@
 game_id,team_id,team_name,num_players,opp_team_id,opp_team_name,opp_num_players,outcome,opp_pts,pts,fgm,fga,fg%,3pm,3pa,3p%,ftm,fta,ft%,oreb,dreb,reb,ast,tov,stl,blk,blka,fc,fd,pir
-20191017-1845-hotshots-rockets,hotshots,Hot Shots,9,rockets,Rockets,9,d,70,22,6,31,19.4,2,6,33.3,8,15,53.3,5,16,21,5,17,3,1,0,11,16,8
-20191017-1845-hotshots-rockets,rockets,Rockets,9,hotshots,Hot Shots,9,w,22,70,30,65,46.2,2,9,22.2,8,13,61.5,22,23,45,20,3,10,0,1,16,9,94
 20191017-1930-burritos-northlondonlions,burritos,Burritos,7,northlondonlions,North L Lions,6,w,29,50,22,44,50.0,1,5,20.0,5,10,50.0,9,27,36,14,7,5,3,0,4,0,70
 20191017-1930-burritos-northlondonlions,northlondonlions,North L Lions,6,burritos,Burritos,7,d,50,29,12,47,25.5,3,12,25.0,2,4,50.0,7,11,18,9,8,7,0,0,8,0,10
 20191017-2015-camdenhells-lostangels,camdenhells,Camden Hells,7,lostangels,Lost Angels,5,d,56,34,15,54,27.8,1,18,5.6,3,4,75.0,5,20,25,8,6,5,4,0,3,0,27
@@ -21,3 +19,5 @@ game_id,team_id,team_name,num_players,opp_team_id,opp_team_name,opp_num_players,
 20191031-2015-lostangels-northlondonlions,northlondonlions,North L Lions,8,lostangels,Lost Angels,5,w,55,59,22,54,40.7,12,24,50.0,3,8,37.5,11,22,33,13,14,9,3,1,10,11,66
 20191031-2100-lions-rockets,lions,Lions,6,rockets,Rockets,7,d,49,38,15,39,38.5,4,13,30.8,4,8,50.0,5,14,19,8,16,13,0,1,15,8,26
 20191031-2100-lions-rockets,rockets,Rockets,7,lions,Lions,6,w,38,49,21,41,51.2,0,3,0,7,23,30.4,13,21,34,7,17,8,1,0,8,15,53
+20191017-1845-hotshots-rockets,rockets,Rockets,8,hotshots,Hot Shots,9,w,22,70,30,65,46.2,2,9,22.2,8,13,61.5,23,23,46,21,3,11,0,2,16,10,97
+20191017-1845-hotshots-rockets,hotshots,Hot Shots,9,rockets,Rockets,8,d,70,22,6,31,19.4,2,6,33.3,8,15,53.3,5,15,20,4,18,3,2,0,10,16,7
