@@ -502,7 +502,7 @@ game_id,sequence_number,period_number,period_seconds,side_id,team_id,player_id,s
 20191107-1845-lions-camdenhells,853,2,136.45,1,camdenhells,rockets-anna,2,0,0,0,False,False,False,DefensiveRebound,rockets-malachi
 20191107-1845-lions-camdenhells,875,2,170.73,1,camdenhells,camdenhells-jess,2,0,0,0,False,False,False,DefensiveRebound,rockets-anna
 20191107-1845-lions-camdenhells,882,2,178.28,0,lions,greenmachine-andris,2,1,0,2,False,True,True,TwoPointShotMade,lions-kata
-20191107-1845-lions-camdenhells,907,2,205.91,1,camdenhells,camdenhells-davidgalindo,2,0,2,2,True,True,False,FreeThrowMade,lions-alfie
+20191107-1845-lions-camdenhells,907,2,205.91,1,camdenhells,lions-alfie,2,0,2,2,True,False,True,FreeThrowMade,lostangels-rob
 20191107-1845-lions-camdenhells,941,2,269.15,0,lions,lions-kata,3,0,0,0,False,False,False,DefensiveRebound,lions-gus
 20191107-1845-lions-camdenhells,955,2,279.81,1,camdenhells,lostangels-rob,2,0,0,0,False,False,False,DefensiveRebound,greenmachine-ahmed
 20191107-1845-lions-camdenhells,963,2,292.73,0,lions,lions-mychelle,3,0,0,0,False,False,False,DefensiveRebound,lions-kata

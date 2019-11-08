@@ -20,7 +20,7 @@ game_id,team_id,team_name,num_players,opp_team_id,opp_team_name,opp_num_players,
 20191031-2100-lions-rockets,lions,Lions,6,rockets,Rockets,7,d,49,38,15,39,38.5,4,13,30.8,4,8,50.0,5,14,19,8,16,13,0,1,15,8,26
 20191031-2100-lions-rockets,rockets,Rockets,7,lions,Lions,6,w,38,49,21,41,51.2,0,3,0,7,23,30.4,13,21,34,7,17,8,1,0,8,15,53
 20191107-1845-lions-camdenhells,lions,Lions,6,camdenhells,Camden Hells,10,d,34,31,13,45,28.9,4,19,21.1,1,3,33.3,4,26,30,9,16,11,1,1,13,5,23
-20191107-1845-lions-camdenhells,camdenhells,Camden Hells,10,lions,Lions,6,w,31,34,13,51,25.5,0,3,0,8,20,40.0,16,30,46,12,15,9,1,1,5,13,44
+20191107-1845-lions-camdenhells,camdenhells,Camden Hells,10,lions,Lions,6,w,31,34,13,51,25.5,0,3,0,8,20,40.0,16,30,46,11,15,9,1,1,5,13,43
 20191107-1930-hotshots-greenmachine,hotshots,Hot Shots,7,greenmachine,Green Machine,8,w,34,35,15,44,34.1,0,6,0,5,6,83.3,12,27,39,8,21,7,6,1,14,6,35
 20191107-1930-hotshots-greenmachine,greenmachine,Green Machine,8,hotshots,Hot Shots,7,d,35,34,13,47,27.7,1,8,12.5,7,20,35.0,13,18,31,13,14,13,1,6,6,14,33
 20191107-2015-northlondonlions-rockets,northlondonlions,North L Lions,7,rockets,Rockets,7,d,39,33,12,45,26.7,1,11,9.1,8,23,34.8,20,26,46,5,15,7,4,2,19,19,30
