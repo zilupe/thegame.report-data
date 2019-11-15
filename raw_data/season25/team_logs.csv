@@ -27,5 +27,13 @@ game_id,team_id,team_name,num_players,opp_team_id,opp_team_name,opp_num_players,
 20191107-2015-northlondonlions-rockets,rockets,Rockets,7,northlondonlions,North L Lions,7,w,33,39,14,42,33.3,1,6,16.7,10,21,47.6,11,20,31,6,11,11,2,4,19,19,35
 20191107-2100-lostangels-burritos,lostangels,Lost Angels,7,burritos,Burritos,7,d,40,36,15,44,34.1,5,13,38.5,1,2,50.0,10,31,41,10,27,7,3,1,15,4,28
 20191107-2100-lostangels-burritos,burritos,Burritos,7,lostangels,Lost Angels,7,w,36,40,13,52,25.0,2,16,12.5,12,16,75.0,9,20,29,4,11,21,1,3,4,14,48
+20191114-1845-lostangels-greenmachine,lostangels,Lost Angels,6,greenmachine,Green Machine,8,w,17,60,27,57,47.4,3,8,37.5,3,4,75.0,9,33,42,21,15,17,9,1,3,2,101
+20191114-1845-lostangels-greenmachine,greenmachine,Green Machine,8,lostangels,Lost Angels,6,d,60,17,8,52,15.4,1,10,10.0,0,2,0,12,22,34,5,24,13,1,9,2,3,-8
+20191114-1930-hotshots-lions,hotshots,Hot Shots,7,lions,Lions,6,w,28,61,27,55,49.1,1,4,25.0,6,18,33.3,14,45,59,14,15,5,6,0,5,16,101
+20191114-1930-hotshots-lions,lions,Lions,6,hotshots,Hot Shots,7,d,61,28,13,62,21.0,1,8,12.5,1,10,10.0,9,20,29,7,7,7,0,6,16,5,-11
+20191114-2015-northlondonlions-camdenhells,northlondonlions,North L Lions,7,camdenhells,Camden Hells,9,d,46,32,12,50,24.0,0,12,0,8,14,57.1,13,20,33,3,10,6,5,2,7,13,29
+20191114-2015-northlondonlions-camdenhells,camdenhells,Camden Hells,9,northlondonlions,North L Lions,7,w,32,46,20,54,37.0,0,5,0,6,10,60.0,16,28,44,12,11,4,2,5,13,7,48
+20191114-2100-rockets-burritos,rockets,Rockets,7,burritos,Burritos,6,w,33,53,19,42,45.2,6,12,50.0,9,18,50.0,6,21,27,15,13,16,1,0,14,15,68
+20191114-2100-rockets-burritos,burritos,Burritos,6,rockets,Rockets,7,d,53,33,14,39,35.9,2,8,25.0,3,7,42.9,7,21,28,8,22,10,0,1,15,14,26
 20191017-1845-hotshots-rockets,rockets,Rockets,8,hotshots,Hot Shots,9,w,22,70,30,65,46.2,2,9,22.2,8,13,61.5,23,23,46,21,3,11,0,2,16,10,97
 20191017-1845-hotshots-rockets,hotshots,Hot Shots,9,rockets,Rockets,8,d,70,22,6,31,19.4,2,6,33.3,8,15,53.3,5,15,20,4,18,3,2,0,10,16,7
