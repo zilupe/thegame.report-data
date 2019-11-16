@@ -1,4 +1,4 @@
-game_id,team_id,team_name,num_players,opp_team_id,opp_team_name,opp_num_players,outcome,opp_pts,pts,fgm,fga,fg%,3pm,3pa,3p%,ftm,fta,ft%,oreb,dreb,reb,ast,tov,stl,blk,blka,fc,fd,pir
+game_id,team_id,team_name,num_players,opp_team_id,opp_team_name,opp_num_players,outcome,opp_pts,pts,fgm,fga,fgperc,threeptm,threepta,threeptperc,ftm,fta,ftperc,oreb,dreb,reb,ast,tov,stl,blk,blka,fc,fd,pir
 20191017-1930-burritos-northlondonlions,burritos,Burritos,7,northlondonlions,North L Lions,6,w,29,50,22,44,50.0,1,5,20.0,5,10,50.0,9,27,36,14,7,5,3,0,4,0,70
 20191017-1930-burritos-northlondonlions,northlondonlions,North L Lions,6,burritos,Burritos,7,d,50,29,12,47,25.5,3,12,25.0,2,4,50.0,7,11,18,9,8,7,0,0,8,0,10
 20191017-2015-camdenhells-lostangels,camdenhells,Camden Hells,7,lostangels,Lost Angels,5,d,56,34,15,54,27.8,1,18,5.6,3,4,75.0,5,20,25,8,6,5,4,0,3,0,27
