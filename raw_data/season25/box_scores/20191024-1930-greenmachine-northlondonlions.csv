@@ -1,18 +1,18 @@
 team_name,player_id,player_gender,player_name,pts,fgm,fga,fg%,3pm,3pa,3p%,ftm,fta,ft%,oreb,dreb,reb,ast,tov,stl,blk,blka,fc,fd,pir,+/-,min,reb +/-,ast +/-,stl +/-,tov +/-,fc +/-
-Green Machine,,,,42,17,46,37.0,2,10,20.0,6,10,60.0,9,25,34,15,16,4,0,1,8,11,48,,,,,,,
-Green Machine,greenmachine-ahmed,m,Ahmed,8,3,8,37.5,2,6,33.3,0,0,0,0,7,7,4,3,1,0,0,2,0,10,-18,28:05,-7,0,-3,4,0
-Green Machine,greenmachine-alex,m,AlexGM,13,5,11,45.5,0,0,0,3,6,50.0,3,7,10,2,3,0,0,0,2,4,15,-12,27:31,1,4,-4,5,-3
-Green Machine,greenmachine-allison,f,Allison,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,-1,-11,18:09,-3,0,-3,3,1
-Green Machine,greenmachine-kelli,f,Kelli,2,1,3,33.3,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,3,-7,21:45,-1,2,-1,2,-2
-Green Machine,greenmachine-marina,f,Marina,2,1,2,50.0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,-2,-7,16:54,2,0,-6,6,-3
-Green Machine,rockets-malachi,m,Malachi,9,3,3,100.0,0,0,0,3,4,75.0,2,2,4,1,1,0,0,0,1,2,13,-6,18:18,5,2,-6,7,-7
-Green Machine,greenmachine-jayd,m,Jayd,0,0,4,0,0,1,0,0,0,0,0,3,3,2,1,1,0,1,0,0,0,-1,14:47,-3,2,-2,0,-2
-Green Machine,greenmachine-basel,m,Basel,8,4,14,28.6,0,3,0,0,0,0,3,4,7,4,4,1,0,0,2,4,8,-13,24:01,3,0,-5,9,-4
-North L Lions,,,,57,24,61,39.3,6,27,22.2,3,5,60.0,13,20,33,13,9,10,1,0,11,8,63,,,,,,,
-North L Lions,northlondonlions-tanky,m,Tanky,17,7,17,41.2,3,11,27.3,0,0,0,1,3,4,5,0,3,0,0,0,3,22,13,33:55,-3,-1,4,-8,1
-North L Lions,northlondonlions-kylie,f,Kylie,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,11,17:04,-2,-3,4,-7,0
-North L Lions,northlondonlions-kat,f,Kitty-Kat,6,3,4,75.0,0,1,0,0,0,0,1,0,1,1,2,0,0,0,0,0,5,12,24:18,8,0,5,-3,4
-North L Lions,northlondonlions-boma,m,Boma,23,9,23,39.1,2,10,20.0,3,5,60.0,3,10,13,2,2,4,1,0,3,3,25,12,28:36,0,-3,5,-6,5
-North L Lions,northlondonlions-tom,m,Tom NLL,6,3,4,75.0,0,0,0,0,0,0,6,5,11,3,2,0,0,0,3,1,15,14,20:56,10,0,3,-1,0
-North L Lions,northlondonlions-zoey,f,Zoe,2,1,6,16.7,0,2,0,0,0,0,0,1,1,0,0,1,0,0,1,0,-2,7,25:38,-4,-2,4,-5,4
-North L Lions,northlondonlions-kenny,m,Kenny,3,1,6,16.7,1,2,50.0,0,0,0,1,1,2,2,3,1,0,0,4,0,-4,9,23:50,-3,0,6,-6,7
+Green Machine,,,,42,17,46,37.0,2,10,20.0,6,10,60.0,10,25,35,15,16,4,0,1,8,11,49,,,,,,,
+Green Machine,greenmachine-ahmed,m,Ahmed,8,3,8,37.5,2,6,33.3,0,0,0,0,7,7,4,3,1,0,0,2,0,10,-15,23:27,-6,0,-2,3,3
+Green Machine,greenmachine-alex,m,AlexGM,13,5,11,45.5,0,0,0,3,6,50.0,3,7,10,2,3,0,0,0,2,4,15,-14,27:36,0,3,-5,5,-2
+Green Machine,greenmachine-allison,f,Allison,0,0,1,0,0,0,0,0,0,0,0,0,0,1,1,0,0,0,0,0,-1,-11,18:37,3,0,-5,8,-1
+Green Machine,greenmachine-kelli,f,Kelli,2,1,3,33.3,0,0,0,0,0,0,0,0,0,1,0,1,0,0,0,1,3,-8,26:01,-2,3,-1,1,-5
+Green Machine,greenmachine-marina,f,Marina,2,1,2,50.0,0,0,0,0,0,0,0,0,0,0,3,0,0,0,0,0,-2,-11,23:23,-1,1,-6,5,-2
+Green Machine,rockets-malachi,m,Malachi,9,3,3,100.0,0,0,0,3,4,75.0,2,2,4,1,1,0,0,0,1,2,13,-4,14:14,4,1,-5,6,-6
+Green Machine,greenmachine-jayd,m,Jayd,0,0,4,0,0,1,0,0,0,0,0,3,3,2,1,1,0,1,0,0,0,1,14:06,-1,2,-2,0,-3
+Green Machine,greenmachine-basel,m,Basel,8,4,14,28.6,0,3,0,0,0,0,3,4,7,4,4,1,0,0,2,4,8,-13,22:38,3,0,-4,7,-4
+North L Lions,,,,57,24,61,39.3,6,27,22.2,3,5,60.0,14,20,34,13,9,10,1,0,11,8,64,,,,,,,
+North L Lions,northlondonlions-tanky,m,Tanky,17,7,17,41.2,3,11,27.3,0,0,0,1,3,4,5,0,3,0,0,0,3,22,11,26:49,-2,-2,4,-7,2
+North L Lions,northlondonlions-kylie,f,Kylie,0,0,1,0,0,1,0,0,0,0,0,0,0,0,0,1,0,0,0,1,1,11,22:22,-2,-2,5,-9,1
+North L Lions,northlondonlions-kat,f,Kitty-Kat,6,3,4,75.0,0,1,0,0,0,0,1,0,1,1,2,0,0,0,0,0,5,13,20:15,6,1,4,-1,2
+North L Lions,northlondonlions-boma,m,Boma,23,9,23,39.1,2,10,20.0,3,5,60.0,3,10,13,2,2,4,1,0,3,3,25,14,28:21,1,-3,5,-6,3
+North L Lions,northlondonlions-tom,m,Tom NLL,6,3,4,75.0,0,0,0,0,0,0,5,5,10,3,2,0,0,0,3,1,14,12,21:41,6,0,3,-2,-1
+North L Lions,northlondonlions-zoey,f,Zoe,2,1,6,16.7,0,2,0,0,0,0,0,1,1,0,0,1,0,0,1,0,-2,4,25:01,-4,-3,3,-4,6
+North L Lions,northlondonlions-kenny,m,Kenny,3,1,6,16.7,1,2,50.0,0,0,0,1,1,2,2,3,1,0,0,4,0,-4,8,25:11,-5,-1,6,-6,8
