@@ -13,13 +13,14 @@ and then run this from src directory:
 
 """
 import csv
+import os
 import sys
 
 sys.path.append("../../unicorn")
 
 from unicorn.v2.season_page import SeasonParse
 
-season_id = 25
+season_id = int(os.environ.get("SEASON_ID", 25))
 
 season = SeasonParse()
 with open(f"/Users/jazeps/Desktop/s{season_id}-standings.html") as f:
