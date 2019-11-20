@@ -1,4 +1,4 @@
-season_id,game_id,side_id,team_id,opp_team_id,fgm,fga,tpm,tpa,ftm,fta,pts,oreb,dreb,reb,ast,stl,tov,blk,pf,opponent_pts,x_factor,possessions,defensive_eff,offensive_eff
+season_id,game_id,side_id,team_id,opp_team_id,fgm,fga,threeptm,threepta,ftm,fta,pts,oreb,dreb,reb,ast,stl,tov,blk,pf,opponent_pts,x_factor,possessions,defensive_eff,offensive_eff
 24,20190801-1845-greenmachine-lions,0,greenmachine,lions,18,47,1,4,1,6,38,2,26,28,10,11,22,4,6,42,,66.8544,62.82309017805859,56.83993873252919
 24,20190801-1845-greenmachine-lions,1,lions,greenmachine,16,54,5,14,5,12,42,10,26,36,11,16,19,0,10,38,,65.5488,57.972075766451866,64.07439953134153
 24,20190801-1930-dropbears-lostangels,0,dropbears,lostangels,8,45,3,12,3,4,22,9,17,26,2,4,10,3,12,48,,45.849599999999995,104.69011725293133,47.98297040759353
