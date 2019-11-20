@@ -1,4 +1,3 @@
-import collections
 import csv
 
 import pandas as pd
@@ -6,8 +5,8 @@ import pandas as pd
 
 def denormalise_team_log(path):
 
-    # Count players in game
-    gp = pd.read_csv("gameplayers.csv")
+    # Count players in game based on playerlogs
+    gp = pd.read_csv("playerlogs.csv")
     num_players = {}
     for game_id, group in gp.groupby(["game_id"]):
         num_players[game_id] = (
