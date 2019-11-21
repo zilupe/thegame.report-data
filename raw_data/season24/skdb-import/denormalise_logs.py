@@ -5,6 +5,15 @@ import pandas as pd
 
 def denormalise_player_logs(path):
 
+    outcomes = {}
+    tl = pd.read_csv("teamlogs-normalised.csv")
+    for game_id, group in tl.groupby(["game_id"]):
+        sides = [group[group["side_id"] == 0], group[group["side_id"] == 1]]
+        outcomes[game_id] = (
+            "w" if sides[0]["pts"].sum() > sides[1]["pts"].sum() else "d",
+            "w" if sides[1]["pts"].sum() > sides[0]["pts"].sum() else "d",
+        )
+
     ignored_names = ["enthusiasm_rating"]
 
     with open(path) as f:
@@ -14,6 +23,10 @@ def denormalise_player_logs(path):
                 row.pop(k, None)
             row["twoptm"] = int(row["fgm"]) - int(row["threeptm"])
             row["twopta"] = int(row["fga"]) - int(row["threepta"])
+
+            game_id = row["game_id"]
+            if game_id in outcomes:
+                row["outcome"] = outcomes[game_id][int(row["side_id"])]
             yield row
 
 
