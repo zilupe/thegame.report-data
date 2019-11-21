@@ -27,6 +27,10 @@ def denormalise_player_logs(path):
             game_id = row["game_id"]
             if game_id in outcomes:
                 row["outcome"] = outcomes[game_id][int(row["side_id"])]
+            else:
+                # A game in which only one side was tracked
+                if game_id == "20190815-1930-lions-burritos" and row["side_id"] == "1":
+                    row["outcome"] = "w"
             yield row
 
 
