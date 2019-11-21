@@ -5,9 +5,12 @@ PTS,Points,
 FGM,Field goals made,Includes both 2 point and 3 point shots made
 FGA,Field goals attempted,Includes both 2 point and 3 point shot attempts
 FG%,Field goal percentage,Field goals made over field goals attempted
-3PM,Three point shots made,
-3PA,Three point shots attempted,
-3P%,Three point shot percentage,
+eFG%,Effective field goal percentage,See Wikipedia
+3PM,Three-point shots made,
+3PA,Three-point shots attempted,
+3P%,Three-point shot percentage,
+2PM,Two-point shots made,
+2PA,Two-point shots attempted,
 FTM,Free throws made,
 FTA,Free throws attempted,
 FT%,Free throw percentage,Free throws made over free throws attempted
@@ -16,12 +19,17 @@ DREB,Defensive rebounds,
 REB,Total rebounds,Sum of offensive and defensive rebounds
 AST,Assists,
 TOV,Turnovers,
+AST/TOV,Assists per turnover ratio,
 STL,Steals,
 BLK,Blocks,
-BLKA,Blocks against,Not available per player in games tracked in simple mode
+BLKA,Blocks against,Starting from season 25
 FC,Fouls committed,
-FD,Fouls drawn,Not available per player in games tracked in simple mode
+SFC,Shooting fouls committed,Starting from season 25
+NSFC,Non-shooting fouls committed,Starting from season 25
+FD,Fouls drawn,Starting from season 25
+SFD,Shooting fouls drawn,Starting from season 25
+NSFD,Non-shooting fouls drawn,Starting from season 25
 PIR,Performance index ratio,Standard European measurement of player's efficiency. The calculation includes numbers which are not always available in simple mode so cannot be compared between simple and tracking mode.
-+/-,Plus/Minus reflects the difference between points scored and conceded by the team while the player was on court
-MIN,Minutes played
-OPP *,Opposition's numbers,
++/-,Plus/Minus,"Starting from season 25, Reflects the difference between points scored and conceded by the team while the player was on court"
+MIN,Minutes played,Starting from season 25
+OPP *,"Opposition's numbers",
