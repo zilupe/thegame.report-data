@@ -3,12 +3,26 @@ import csv
 import pandas as pd
 
 
-def denormalise_team_log(path):
+def denormalise_player_logs(path):
+
+    ignored_names = ["enthusiasm_rating"]
+
+    with open(path) as f:
+        csv_reader = csv.DictReader(f)
+        for row in csv_reader:
+            for k in ignored_names:
+                row.pop(k, None)
+            row["twoptm"] = int(row["fgm"]) - int(row["threeptm"])
+            row["twopta"] = int(row["fga"]) - int(row["threepta"])
+            yield row
+
+
+def denormalise_team_logs(path):
 
     # Count players in game based on playerlogs
-    gp = pd.read_csv("playerlogs.csv")
+    pl = pd.read_csv("playerlogs.csv")
     num_players = {}
-    for game_id, group in gp.groupby(["game_id"]):
+    for game_id, group in pl.groupby(["game_id"]):
         num_players[game_id] = (
             len(group[group["side_id"] == 0].index),
             len(group[group["side_id"] == 1].index),
@@ -80,7 +94,7 @@ def denormalise_team_log(path):
 
 
 if __name__ == "__main__":
-    denorm = pd.DataFrame(denormalise_team_log("teamlogs-normalised.csv"))
+    denorm = pd.DataFrame(denormalise_team_logs("teamlogs-normalised.csv"))
     denorm["num_players"] = denorm["num_players"].fillna("")
     denorm["opp_num_players"] = denorm["opp_num_players"].fillna("")
     with open("teamlogs.csv", "w") as f:
@@ -89,4 +103,11 @@ if __name__ == "__main__":
         for row in denorm.T.to_dict().values():
             row["num_players"] = int(row["num_players"]) if row["num_players"] else None
             row["opp_num_players"] = int(row["opp_num_players"]) if row["opp_num_players"] else None
+            csv_writer.writerow(row)
+
+    denorm = pd.DataFrame(denormalise_player_logs("playerlogs-normalised.csv"))
+    with open("playerlogs.csv", "w") as f:
+        csv_writer = csv.DictWriter(f, fieldnames=denorm.columns)
+        csv_writer.writeheader()
+        for row in denorm.T.to_dict().values():
             csv_writer.writerow(row)
