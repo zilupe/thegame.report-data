@@ -1,0 +1,19 @@
+team_name,player_id,player_gender,player_name,pts,fgm,fga,fg%,3pm,3pa,3p%,ftm,fta,ft%,oreb,dreb,reb,ast,tov,stl,blk,blka,fc,fd,pir,+/-,min,reb +/-,ast +/-,stl +/-,tov +/-,fc +/-
+Rockets,,,,62,27,44,61.4,1,5,20.0,7,13,53.8,8,27,35,19,14,18,4,2,16,12,95,,,,,,,
+Rockets,rockets-alex,m,AlexCast,8,4,6,66.7,0,0,0,0,1,0,1,5,6,2,2,5,0,1,0,2,17,38,20:54,12,13,10,-6,1
+Rockets,rockets-anna,f,Anna,0,0,2,0,0,0,0,0,0,0,0,1,1,0,1,1,0,0,1,0,-2,28,21:06,7,9,7,-2,2
+Rockets,rockets-darnell,m,Darnell,18,9,14,64.3,0,2,0,0,3,0,1,2,3,1,3,2,0,1,1,2,13,17,18:30,4,5,7,-3,3
+Rockets,rockets-janis,f,Janis,5,2,4,50.0,1,2,50.0,0,0,0,0,3,3,2,3,2,0,0,0,0,7,36,29:51,15,14,12,-6,3
+Rockets,rockets-marc,m,Marc,16,6,9,66.7,0,1,0,4,5,80.0,1,2,3,2,4,1,0,0,4,3,13,16,22:05,7,9,5,0,6
+Rockets,rockets-patricia,f,Patricia,2,1,1,100.0,0,0,0,0,0,0,0,3,3,3,1,1,0,0,2,0,6,18,17:02,6,7,7,-2,3
+Rockets,rockets-paul,m,Paul,12,5,5,100.0,0,0,0,2,2,100.0,1,2,3,8,0,4,1,0,4,3,27,36,19:08,11,11,10,-6,-3
+Rockets,rockets-thriston,m,Thriston,1,0,3,0,0,0,0,1,2,50.0,2,9,11,1,0,2,3,0,4,2,12,16,21:24,8,7,7,0,5
+Green Machine,,,,21,7,40,17.5,1,3,33.3,6,15,40.0,11,13,24,4,19,5,2,4,12,16,-5,,,,,,,
+Green Machine,greenmachine-alison,f,Alison,0,0,1,0,0,0,0,0,0,0,1,0,1,0,2,0,0,0,0,0,-2,-16,16:37,-5,-6,-4,0,-5
+Green Machine,greenmachine-kelli,f,Kelli,0,0,3,0,0,0,0,0,0,0,0,0,0,1,4,0,0,0,0,0,-6,-25,17:03,-9,-11,-7,4,-2
+Green Machine,greenmachine-sergio,m,Sergio,10,3,10,30.0,0,0,0,4,5,80.0,0,0,0,0,3,1,0,1,4,4,-1,-37,32:07,-13,-13,-13,5,-4
+Green Machine,greenmachine-victoria,f,Victoria,0,0,1,0,0,0,0,0,2,0,1,0,1,0,5,0,0,0,1,1,-7,-13,13:40,-5,-4,-6,1,0
+Green Machine,greenmachine-jayd,m,Jayd,4,2,16,12.5,0,2,0,0,2,0,1,4,5,0,3,0,0,1,1,4,-8,-36,29:59,-11,-12,-10,3,-4
+Green Machine,greenmachine-ring-james,m,James,0,0,3,0,0,0,0,0,2,0,2,2,4,1,0,0,0,1,3,2,-2,-20,15:54,-6,-8,-7,3,-4
+Green Machine,greenmachine-marina,f,Marina,3,1,2,50.0,1,1,100.0,0,2,0,0,0,0,0,2,1,0,1,0,3,1,-26,20:54,-9,-9,-9,5,-1
+Green Machine,greenmachine-ring-enrique,m,Enrique,4,1,4,25.0,0,0,0,2,2,100.0,2,6,8,2,0,3,2,0,3,2,15,-30,23:04,-12,-11,-8,3,2
