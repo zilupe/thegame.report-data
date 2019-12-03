@@ -7,12 +7,45 @@ from typing import Dict
 
 log = logging.getLogger(__name__)
 
-sys.path.append("../../unicorn")
+UNICORN_DIR = Path("../../unicorn")
+
+sys.path.append(str(UNICORN_DIR))
 from unicorn.v2.season_page import SeasonParse
 
 
-def extract_scores(input_dir: Path, output_dir: Path):
-    log.info(f"Extracting scores from {input_dir}")
+def load_franchises(unicorn_dir: Path):
+    with (unicorn_dir / "data" / "franchises.csv").open() as f:
+        yield from csv.DictReader(f)
+
+
+def load_franchise_seasons(unicorn_dir: Path):
+    with (unicorn_dir / "data" / "franchise_seasons.csv").open() as f:
+        yield from csv.DictReader(f)
+
+
+def extract_gm(input_dir: Path, output_dir: Path, unicorn_dir: Path = None):
+    """
+    Extract all GM data from scraped season pages as well as additional CSV files from the unicorn project.
+    """
+    unicorn_dir = unicorn_dir or UNICORN_DIR / "unicorn"
+
+    log.info(f"Extracting GM data from {input_dir} and {unicorn_dir}")
+
+    franchises_rows = []
+    for f in load_franchises(unicorn_dir):
+        franchises_rows.append({
+            "id": int(f["id"]),
+            "name": f["name"],
+        })
+
+    teams_rows = []
+    for fs in load_franchise_seasons(unicorn_dir):
+        team_id = f"{fs['season_id']:0>4}.{fs['gm_team_id']}"
+        teams_rows.append({
+            "id": team_id,
+            "name": fs["team_name"],
+            "franchise_id": int(fs["franchise_id"]),
+        })
 
     seasons: Dict[int, SeasonParse] = {}
 
@@ -38,24 +71,17 @@ def extract_scores(input_dir: Path, output_dir: Path):
 
     seasons_rows = []
     games_rows = []
-    team_rows = []
 
     for season in seasons.values():
 
         seasons_rows.append({
             "id": season.season_id,
             "league_id": season.league_id,
-            "division_id": season.division_id,
+            "division_id": season.division_id or None,
             "name": season.season_name,
             "first_week_date": sorted(season.game_days, key=lambda gd: gd.date)[0].date if season.game_days else None,
             "last_week_date": sorted(season.game_days, key=lambda gd: gd.date)[-1].date if season.game_days else None,
         })
-
-        for team in season.teams.values():
-            team_rows.append({
-                "id": team.id,
-                "incorrect_name": team.name,
-            })
 
         for game_day in season.game_days:
             for g in game_day.games:
@@ -75,7 +101,20 @@ def extract_scores(input_dir: Path, output_dir: Path):
     for i, season_row in enumerate(sorted(seasons_rows, key=lambda s: s["first_week_date"])):
         season_row["sequence_number"] = i + 1
 
-    output_path = output_dir / "gm_seasons.csv"
+    output_path = output_dir / "gmfranchises.csv"
+    with output_path.open("w") as f:
+        csv_writer = csv.DictWriter(
+            f,
+            fieldnames=[
+                "id",
+                "name",
+            ],
+        )
+        csv_writer.writeheader()
+        csv_writer.writerows(sorted(franchises_rows, key=lambda s: s["id"]))
+    log.info(f"{len(franchises_rows)} franchises written to {output_path}")
+
+    output_path = output_dir / "gmseasons.csv"
     with output_path.open("w") as f:
         csv_writer = csv.DictWriter(
             f,
@@ -93,20 +132,21 @@ def extract_scores(input_dir: Path, output_dir: Path):
         csv_writer.writerows(sorted(seasons_rows, key=lambda s: s["first_week_date"]))
     log.info(f"{len(seasons_rows)} seasons written to {output_path}")
 
-    output_path = output_dir / "gm_teams.csv"
+    output_path = output_dir / "gmteams.csv"
     with output_path.open("w") as f:
         csv_writer = csv.DictWriter(
             f,
             fieldnames=[
                 "id",
-                "incorrect_name",
+                "name",
+                "franchise_id",
             ],
         )
         csv_writer.writeheader()
-        csv_writer.writerows(team_rows)
-    log.info(f"{len(team_rows)} teams written to {output_path}")
+        csv_writer.writerows(teams_rows)
+    log.info(f"{len(teams_rows)} teams written to {output_path}")
 
-    output_path = output_dir / "gm_games.csv"
+    output_path = output_dir / "gmgames.csv"
     with output_path.open("w") as f:
         csv_writer = csv.DictWriter(
             f,
@@ -140,7 +180,7 @@ def main():
         stream=sys.stdout,
     )
 
-    extract_scores(
+    extract_gm(
         input_dir=args.input_dir,
         output_dir=args.output_dir,
     )
