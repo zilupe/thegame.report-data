@@ -65,9 +65,18 @@ def extract_scores(input_dir: Path, output_dir: Path):
         else:
             seasons[gm_season_id].parse_standings_page(item.read_text())
 
-    rows = []
+    seasons_rows = []
+    games_rows = []
 
     for season in seasons.values():
+
+        seasons_rows.append({
+            "id": season.season_id,
+            "league_id": season.league_id,
+            "division_id": season.division_id,
+            "name": season.season_name,
+            "first_week_date": sorted(season.game_days, key=lambda gd: gd.date)[0].date if season.game_days else None,
+        })
 
         teams_by_id = {t["id"]: t["name"].lower().replace(" ", "").replace("'", "") for t in season.teams.values()}
 
@@ -78,7 +87,7 @@ def extract_scores(input_dir: Path, output_dir: Path):
                     f"{teams_by_id[g['home_team_id']]}-"
                     f"{teams_by_id[g['away_team_id']]}"
                 )
-                rows.append({
+                games_rows.append({
                     "season_id": gm_season_ids.index(season.season_id) + 1,
                     "gm_season_id": season.season_id,
                     "gm_season_name": season.season_name,
@@ -94,6 +103,26 @@ def extract_scores(input_dir: Path, output_dir: Path):
                     "notes": g["season_stage"],
                 })
 
+    for i, season_row in enumerate(sorted(seasons_rows, key=lambda s: s["first_week_date"])):
+        season_row["sequence_number"] = i + 1
+
+    output_path = output_dir / "gm_seasons.csv"
+    with output_path.open("w") as f:
+        csv_writer = csv.DictWriter(
+            f,
+            fieldnames=[
+                "sequence_number",
+                "id",
+                "league_id",
+                "division_id",
+                "name",
+                "first_week_date",
+            ],
+        )
+        csv_writer.writeheader()
+        csv_writer.writerows(sorted(seasons_rows, key=lambda s: s["first_week_date"]))
+    log.info(f"Seasons written to {output_path}")
+
     output_path = output_dir / "scores.csv"
     with output_path.open("w") as f:
         csv_writer = csv.DictWriter(
@@ -108,7 +137,7 @@ def extract_scores(input_dir: Path, output_dir: Path):
             ],
         )
         csv_writer.writeheader()
-        csv_writer.writerows(rows)
+        csv_writer.writerows(games_rows)
     log.info(f"Output written to {output_path}")
 
 
