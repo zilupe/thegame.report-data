@@ -11,35 +11,6 @@ sys.path.append("../../unicorn")
 from unicorn.v2.season_page import SeasonParse
 
 
-gm_season_ids = [
-    55,
-    59,
-    62,
-    70,
-    73,
-    79,
-    85,
-    80,
-    86,
-    96,
-    98,
-    100,
-    101,
-    102,
-    104,
-    105,
-    107,
-    108,
-    109,
-    110,
-    112,
-    113,
-    114,
-    115,
-    118,
-]
-
-
 def extract_scores(input_dir: Path, output_dir: Path):
     log.info(f"Extracting scores from {input_dir}")
 
@@ -67,6 +38,7 @@ def extract_scores(input_dir: Path, output_dir: Path):
 
     seasons_rows = []
     games_rows = []
+    team_rows = []
 
     for season in seasons.values():
 
@@ -76,31 +48,28 @@ def extract_scores(input_dir: Path, output_dir: Path):
             "division_id": season.division_id,
             "name": season.season_name,
             "first_week_date": sorted(season.game_days, key=lambda gd: gd.date)[0].date if season.game_days else None,
+            "last_week_date": sorted(season.game_days, key=lambda gd: gd.date)[-1].date if season.game_days else None,
         })
 
-        teams_by_id = {t["id"]: t["name"].lower().replace(" ", "").replace("'", "") for t in season.teams.values()}
+        for team in season.teams.values():
+            team_rows.append({
+                "id": team.id,
+                "incorrect_name": team.name,
+            })
 
         for game_day in season.game_days:
             for g in game_day.games:
-                g_id = (
-                    f"{g['starts_at'].strftime('%Y%m%d-%H%M')}-"
-                    f"{teams_by_id[g['home_team_id']]}-"
-                    f"{teams_by_id[g['away_team_id']]}"
-                )
                 games_rows.append({
-                    "season_id": gm_season_ids.index(season.season_id) + 1,
-                    "gm_season_id": season.season_id,
-                    "gm_season_name": season.season_name,
-                    "gm_league_id": season.league_id,
-                    "gm_division_id": season.division_id or None,
-                    "gm_game_id": g["id"],
-                    "scheduled_time": g["starts_at"].strftime("%Y-%m-%d %H:%M:%S"),
-                    "game_id": g_id,
-                    "home_pts": g["home_team_score"],
-                    "away_pts": g["away_team_score"],
-                    "home_outcome": g["home_team_outcome"],
-                    "away_outcome": g["away_team_outcome"],
-                    "notes": g["season_stage"],
+                    "id": g.id,
+                    "scheduled_time": g.starts_at,
+                    "season_id": season.season_id,
+                    "season_stage": g.season_stage,
+                    "home_team_id": g.home_team_id,
+                    "home_team_pts": g.home_team_score,
+                    "home_team_outcome": g.home_team_outcome,
+                    "away_team_id": g.away_team_id,
+                    "away_team_pts": g.away_team_score,
+                    "away_team_outcome": g.away_team_outcome,
                 })
 
     for i, season_row in enumerate(sorted(seasons_rows, key=lambda s: s["first_week_date"])):
@@ -117,28 +86,46 @@ def extract_scores(input_dir: Path, output_dir: Path):
                 "division_id",
                 "name",
                 "first_week_date",
+                "last_week_date",
             ],
         )
         csv_writer.writeheader()
         csv_writer.writerows(sorted(seasons_rows, key=lambda s: s["first_week_date"]))
-    log.info(f"Seasons written to {output_path}")
+    log.info(f"{len(seasons_rows)} seasons written to {output_path}")
 
-    output_path = output_dir / "scores.csv"
+    output_path = output_dir / "gm_teams.csv"
     with output_path.open("w") as f:
         csv_writer = csv.DictWriter(
             f,
             fieldnames=[
-                "season_id",
-                "game_id",
+                "id",
+                "incorrect_name",
+            ],
+        )
+        csv_writer.writeheader()
+        csv_writer.writerows(team_rows)
+    log.info(f"{len(team_rows)} teams written to {output_path}")
+
+    output_path = output_dir / "gm_games.csv"
+    with output_path.open("w") as f:
+        csv_writer = csv.DictWriter(
+            f,
+            fieldnames=[
+                "id",
                 "scheduled_time",
-                "home_pts", "away_pts", "home_outcome", "away_outcome", "notes",
-                "gm_season_id", "gm_season_name", "gm_game_id",
-                "gm_league_id", "gm_division_id",
+                "season_id",
+                "season_stage",
+                "home_team_id",
+                "home_team_pts",
+                "home_team_outcome",
+                "away_team_id",
+                "away_team_pts",
+                "away_team_outcome",
             ],
         )
         csv_writer.writeheader()
         csv_writer.writerows(games_rows)
-    log.info(f"Output written to {output_path}")
+    log.info(f"{len(games_rows)} games written to {output_path}")
 
 
 def main():
