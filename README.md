@@ -3,6 +3,13 @@
 
 An attempt to organise, standardise, and share the data of our league.
 
+### Update 2019-12-04
+
+Early version of the new consolidated website is available at http://statsdemo.thegame.report
+
+Once it is ready, the address will be http://thegame.report (which currently hosts the original
+static blog). 
+
 ### Update 2019-11-21
 
 In 1-2 weeks data will become available on a browsable website and potentially through a JSON or CSV API.
