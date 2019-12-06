@@ -1,0 +1,14 @@
+game_id,home_team_id,home_team_score,away_team_id,away_team_score,score_status,score_status_comments,season_stage
+56157,,29,,29,5,"Unknown. Islington Devils had lost to Euston Rockets convincingly in the regular season, but then beat them the week before also convincingly. Maybe that previous week's score was wrong?",
+55922,,42,,29,4,"Educated guess. E=MC SWISH were pretty good that season and only lost to Supernova.",
+55921,,42,,29,3,"Correct winner (Supernova). Supernova did win that championship.",
+79979,,29,,42,3,"Correct winner (Rockets). Los Angels appear next week in the 3rd place final so they must have lost the semifinal.",
+79981,,29,,42,4,"Educated guess. Markit were losing all games their first couple of seasons.",
+79983,,42,,29,4,"Educated guess. The last game with the original Los Angels lineup, I think our first three seasons went 1st, 2nd, 4th, but not sure!",
+79982,,42,,29,3,"Correct winner (E=MC SWISH). E=MC SWISH second title out of three consecutive ones.",
+101712,5425,23,4949,32,4,"Wild guess. GM website lists the game as Burritos vs Burritos 23-32. It was probably Markit vs Burritos (as Markit had beaten Ocelots in the 5th place semi-final) and I'm guessing that Burritos won as they had beaten Markit 35-23 earlier in the season.",
+113863,,31,,36,2,"Correct winner (Rockets) and probably the score too. Found on WhatsApp team chat, written by Eddie: 'After half it was 4:22 (yes 4) but at the end 31:36. Or close to that. We definitely lost by 5pts.'",
+156379,11360,0,5425,0,5,"Unclear if the game happened at all. GM website does not mention Amazon Warriors.",final7th
+156380,5015,36,11379,27,1,"GM website does not label the game correctly, it was the 5th place final",final5th
+156381,4896,36,4949,48,1,"GM website does not label the game correctly, it was the 3rd place final",final3rd
+156382,4611,49,5078,43,1,"GM website does not label the game correctly, it was the final",final1st
