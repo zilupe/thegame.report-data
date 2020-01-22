@@ -20,7 +20,7 @@ sys.path.append("../../unicorn")
 
 from unicorn.v2.season_page import SeasonParse
 
-season_id = int(os.environ.get("SEASON_ID", 25))
+season_id = int(os.environ.get("SEASON_ID", 26))
 
 season = SeasonParse()
 with open(f"/Users/jazeps/Desktop/s{season_id}-standings.html") as f:
